@@ -1,0 +1,47 @@
+000 (6769590.593.000) 2026-10-14 13:33:03 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769590.593.000) 2026-10-14 13:39:07 Started transferring input files
+	Transferring to host: <192.168.165.138:44781?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#14758426%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8063973&PrivNet=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs&addrs=192.168.165.138-44781+[2600-900-6-1181-ae4e-dd9d-efc7-5a98]-44781&alias=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs&noUDP&sock=slot1_58_3976_339b_22303>
+...
+040 (6769590.593.000) 2026-10-14 13:39:30 Finished transferring input files
+...
+021 (6769590.593.000) 2026-10-14 13:39:31 Message from starter on slot1_58@UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6769590.593.000) 2026-10-14 13:39:31 Job executing on host: <192.168.165.138:44781?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#14758426%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8063973&PrivNet=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs&addrs=192.168.165.138-44781+[2600-900-6-1181-ae4e-dd9d-efc7-5a98]-44781&alias=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs&noUDP&sock=startd_3970_ab13>
+	SlotName: slot1_58@UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-f9ccs
+	CondorScratchDir = "/pilot/osgvo-pilot-haRVqh/execute/dir_150445/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6769590.593.000) 2026-10-14 13:39:35 Image size of job updated: 6462568
+	179  -  MemoryUsage of job (MB)
+	183168  -  ResidentSetSize of job (KB)
+...
+040 (6769590.593.000) 2026-10-14 13:39:35 Started transferring output files
+...
+040 (6769590.593.000) 2026-10-14 13:39:37 Finished transferring output files
+...
+005 (6769590.593.000) 2026-10-14 13:39:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1583  -  Run Bytes Sent By Job
+	1897877535  -  Run Bytes Received By Job
+	1583  -  Total Bytes Sent By Job
+	1897877535  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  1853764  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      179      750       768 
+	   TimeExecute (s)      :        4                    
+	   TimeSlotBusy (s)     :       34                    
+...
+009 (6769590.593.000) 2026-10-14 13:39:39 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

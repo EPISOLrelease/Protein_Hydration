@@ -1,0 +1,76 @@
+000 (6762571.1841.000) 2026-10-13 19:28:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6762571.1841.000) 2026-10-13 19:58:24 Started transferring input files
+	Transferring to host: <10.226.104.118:39583?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15697865%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#8988572&PrivNet=epyc018.rci.montana.edu&addrs=10.226.104.118-39583&alias=epyc018.rci.montana.edu&noUDP>
+...
+022 (6762571.1841.000) 2026-10-13 20:10:49 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@glidein_2725400_283967440@epyc018.rci.montana.edu <10.226.104.118:44277?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15697722%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8994097&PrivNet=epyc018.rci.montana.edu&addrs=10.226.104.118-44277&alias=epyc018.rci.montana.edu&noUDP>
+...
+024 (6762571.1841.000) 2026-10-13 20:10:58 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@glidein_2725400_283967440@epyc018.rci.montana.edu, rescheduling job
+...
+004 (6762571.1841.000) 2026-10-13 20:10:58 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2000000  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6762571.1841.000) 2026-10-13 20:11:07 Entered queue to transfer input files
+	Transferring to host: <172.18.88.206:41175?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15697811%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#8994126&PrivNet=a196.anvil.rcac.purdue.edu&addrs=172.18.88.206-41175&alias=a196.anvil.rcac.purdue.edu&noUDP>
+...
+040 (6762571.1841.000) 2026-10-13 20:11:20 Started transferring input files
+	Seconds spent in queue: 13
+...
+040 (6762571.1841.000) 2026-10-13 20:12:50 Finished transferring input files
+...
+021 (6762571.1841.000) 2026-10-13 20:12:51 Message from starter on slot1_72@glidein_265716_257724624@a196.anvil.rcac.purdue.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6762571.1841.000) 2026-10-13 20:12:51 Job executing on host: <172.18.88.206:43323?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15681045%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8986494&PrivNet=a196.anvil.rcac.purdue.edu&addrs=172.18.88.206-43323&alias=a196.anvil.rcac.purdue.edu&noUDP>
+	SlotName: slot1_72@glidein_265716_257724624@a196.anvil.rcac.purdue.edu
+	CondorScratchDir = "/tmp/glide_Rxyhcr/execute/dir_1802336/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6762571.1841.000) 2026-10-13 20:13:00 Image size of job updated: 4789468
+	252  -  MemoryUsage of job (MB)
+	257596  -  ResidentSetSize of job (KB)
+...
+006 (6762571.1841.000) 2026-10-13 20:15:17 Image size of job updated: 4790364
+	254  -  MemoryUsage of job (MB)
+	259104  -  ResidentSetSize of job (KB)
+...
+040 (6762571.1841.000) 2026-10-13 20:15:17 Started transferring output files
+	Seconds spent in queue: 250
+...
+040 (6762571.1841.000) 2026-10-13 20:15:17 Finished transferring output files
+...
+005 (6762571.1841.000) 2026-10-13 20:15:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:12, Sys 0 00:01:11  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:12, Sys 0 00:01:11  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13216  -  Run Bytes Sent By Job
+	1897973564  -  Run Bytes Received By Job
+	13216  -  Total Bytes Sent By Job
+	1897973564  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.39        2         2 
+	   Disk (KB)            : 1853653     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     254         750       768 
+	   TimeExecute (s)      :     146                       
+	   TimeSlotBusy (s)     :     255                       
+...

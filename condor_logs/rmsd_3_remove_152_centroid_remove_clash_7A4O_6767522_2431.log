@@ -1,0 +1,52 @@
+000 (6767522.2431.000) 2026-10-14 10:16:25 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767522.2431.000) 2026-10-14 10:28:07 Entered queue to transfer input files
+	Transferring to host: <172.20.32.68:45679?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15732799%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9023586&PrivNet=execute-140.mortimer.hpc.uwm.edu&addrs=172.20.32.68-45679&alias=execute-140.mortimer.hpc.uwm.edu&noUDP>
+...
+040 (6767522.2431.000) 2026-10-14 10:32:13 Started transferring input files
+	Seconds spent in queue: 246
+...
+040 (6767522.2431.000) 2026-10-14 10:32:46 Finished transferring input files
+...
+021 (6767522.2431.000) 2026-10-14 10:32:47 Message from starter on slot1_1@glidein_3073604_39517830@execute-140.mortimer.hpc.uwm.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767522.2431.000) 2026-10-14 10:32:47 Job executing on host: <172.20.32.68:36875?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#15682485%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8988003&PrivNet=execute-140.mortimer.hpc.uwm.edu&addrs=172.20.32.68-36875&alias=execute-140.mortimer.hpc.uwm.edu&noUDP>
+	SlotName: slot1_1@glidein_3073604_39517830@execute-140.mortimer.hpc.uwm.edu
+	CondorScratchDir = "/tmp/glide_biBATB/execute/dir_2892736/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767522.2431.000) 2026-10-14 10:32:56 Image size of job updated: 2639792
+	71  -  MemoryUsage of job (MB)
+	71828  -  ResidentSetSize of job (KB)
+...
+006 (6767522.2431.000) 2026-10-14 10:37:56 Image size of job updated: 3310956
+	276  -  MemoryUsage of job (MB)
+	282448  -  ResidentSetSize of job (KB)
+...
+040 (6767522.2431.000) 2026-10-14 10:41:33 Started transferring output files
+	Seconds spent in queue: 806
+...
+040 (6767522.2431.000) 2026-10-14 10:41:34 Finished transferring output files
+...
+004 (6767522.2431.000) 2026-10-14 10:41:35 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:07:22, Sys 0 00:04:12  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9681  -  Run Bytes Sent By Job
+	1899493310  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.32        2         2 
+	   Disk (KB)            : 1855675     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     276         750       768 
+	   TimeExecute (s)      :     526                       
+	   TimeSlotBusy (s)     :     813                       
+...
+009 (6767522.2431.000) 2026-10-14 10:41:35 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

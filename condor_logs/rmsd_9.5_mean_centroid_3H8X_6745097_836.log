@@ -1,0 +1,65 @@
+000 (6745097.836.000) 2026-10-12 22:08:20 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+024 (6745097.836.000) 2026-10-12 22:25:31 Job reconnection failed
+    Reconnect is not supported
+    Can not reconnect to slot1_2@glidein_3595392_696293582@epyc017.rci.montana.edu, rescheduling job
+...
+004 (6745097.836.000) 2026-10-12 22:25:32 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Reconnect is not supported
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2000000  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6745097.836.000) 2026-10-12 22:25:36 Started transferring input files
+	Transferring to host: <10.5.18.12:33295?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#15599941%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8904539&PrivNet=wizard12.beocat.ksu.edu&addrs=10.5.18.12-33295&alias=wizard12.beocat.ksu.edu&noUDP>
+...
+040 (6745097.836.000) 2026-10-12 22:25:55 Finished transferring input files
+...
+021 (6745097.836.000) 2026-10-12 22:25:55 Message from starter on slot1_2@glidein_303305_408848310@wizard12.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6745097.836.000) 2026-10-12 22:25:55 Job executing on host: <10.5.18.12:42361?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15593307%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#8889803&PrivNet=wizard12.beocat.ksu.edu&addrs=10.5.18.12-42361&alias=wizard12.beocat.ksu.edu&noUDP>
+	SlotName: slot1_2@glidein_303305_408848310@wizard12.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_E7FR1k/execute/dir_538082/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6745097.836.000) 2026-10-12 22:26:04 Image size of job updated: 3205192
+	200  -  MemoryUsage of job (MB)
+	204192  -  ResidentSetSize of job (KB)
+...
+006 (6745097.836.000) 2026-10-12 22:27:22 Image size of job updated: 3313828
+	238  -  MemoryUsage of job (MB)
+	242892  -  ResidentSetSize of job (KB)
+...
+040 (6745097.836.000) 2026-10-12 22:27:22 Started transferring output files
+...
+040 (6745097.836.000) 2026-10-12 22:27:22 Finished transferring output files
+...
+005 (6745097.836.000) 2026-10-12 22:27:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:18, Sys 0 00:00:26  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:18, Sys 0 00:00:26  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12548  -  Run Bytes Sent By Job
+	1897246063  -  Run Bytes Received By Job
+	12548  -  Total Bytes Sent By Job
+	1897246063  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.21        2         2 
+	   Disk (KB)            : 1852930     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     238         750       768 
+	   TimeExecute (s)      :      87                       
+	   TimeSlotBusy (s)     :     107                       
+...

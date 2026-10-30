@@ -1,0 +1,70 @@
+000 (6762571.060.000) 2026-10-13 19:28:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6762571.060.000) 2026-10-13 19:30:31 Started transferring input files
+	Transferring to host: <10.242.15.73:36005?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#15687739%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#8992156&PrivNet=notch073.ipoib.int.chpc.utah.edu&addrs=10.242.15.73-36005&alias=notch073.ipoib.int.chpc.utah.edu&noUDP>
+...
+040 (6762571.060.000) 2026-10-13 19:39:56 Finished transferring input files
+...
+022 (6762571.060.000) 2026-10-13 19:39:56 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_1684901_128998392@notch073.ipoib.int.chpc.utah.edu <10.242.15.73:42107?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15690722%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8996075&PrivNet=notch073.ipoib.int.chpc.utah.edu&addrs=10.242.15.73-42107&alias=notch073.ipoib.int.chpc.utah.edu&noUDP>
+...
+024 (6762571.060.000) 2026-10-13 20:19:56 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_2@glidein_1684901_128998392@notch073.ipoib.int.chpc.utah.edu, rescheduling job
+...
+004 (6762571.060.000) 2026-10-13 20:20:07 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :   634639  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6762571.060.000) 2026-10-13 20:20:12 Started transferring input files
+	Transferring to host: <192.170.241.187:44843?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector4#15694582%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8996506&PrivNet=uct2-c654.mwt2.org&addrs=192.170.241.187-44843+[2605-9a00-10-200a-5e6f-69ff-fe8d-d2e0]-44843&alias=uct2-c654.mwt2.org&noUDP>
+...
+040 (6762571.060.000) 2026-10-13 20:20:42 Finished transferring input files
+...
+021 (6762571.060.000) 2026-10-13 20:20:43 Message from starter on slot1_6@glidein_925072_515595132@uct2-c654.mwt2.org:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6762571.060.000) 2026-10-13 20:20:43 Job executing on host: <192.170.241.187:40191?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15683687%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8983318&PrivNet=uct2-c654.mwt2.org&addrs=192.170.241.187-40191+[2605-9a00-10-200a-5e6f-69ff-fe8d-d2e0]-40191&alias=uct2-c654.mwt2.org&noUDP>
+	SlotName: slot1_6@glidein_925072_515595132@uct2-c654.mwt2.org
+	CondorScratchDir = "/var/lib/condor/execute/dir_925070/glide_cCdtyf/execute/dir_2002461/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 4096
+...
+006 (6762571.060.000) 2026-10-13 20:20:52 Image size of job updated: 3530568
+	224  -  MemoryUsage of job (MB)
+	228432  -  ResidentSetSize of job (KB)
+...
+040 (6762571.060.000) 2026-10-13 20:24:49 Started transferring output files
+...
+040 (6762571.060.000) 2026-10-13 20:24:49 Finished transferring output files
+...
+005 (6762571.060.000) 2026-10-13 20:24:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:41, Sys 0 00:01:37  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:41, Sys 0 00:01:37  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13325  -  Run Bytes Sent By Job
+	1898474394  -  Run Bytes Received By Job
+	13325  -  Total Bytes Sent By Job
+	1898474394  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.29        2         2 
+	   Disk (KB)            : 1854121     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     224         750      4096 
+	   TimeExecute (s)      :     246                       
+	   TimeSlotBusy (s)     :     278                       
+...

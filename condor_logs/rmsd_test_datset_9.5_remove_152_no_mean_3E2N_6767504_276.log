@@ -1,0 +1,74 @@
+000 (6767504.276.000) 2026-10-14 09:51:59 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767504.276.000) 2026-10-14 09:53:19 Started transferring input files
+	Transferring to host: <10.242.160.16:40955?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15732322%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9021639&PrivNet=grn006.int.chpc.utah.edu&addrs=10.242.160.16-40955&alias=grn006.int.chpc.utah.edu&noUDP>
+...
+040 (6767504.276.000) 2026-10-14 10:13:19 Finished transferring input files
+...
+022 (6767504.276.000) 2026-10-14 10:13:19 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_13@glidein_562167_531207544@grn006.int.chpc.utah.edu <10.242.160.16:42163?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15714660%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9005621&PrivNet=grn006.int.chpc.utah.edu&addrs=10.242.160.16-42163&alias=grn006.int.chpc.utah.edu&noUDP>
+...
+024 (6767504.276.000) 2026-10-14 10:13:20 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_13@glidein_562167_531207544@grn006.int.chpc.utah.edu, rescheduling job
+...
+004 (6767504.276.000) 2026-10-14 10:13:20 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1377687  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6767504.276.000) 2026-10-14 10:13:21 Started transferring input files
+	Transferring to host: <192.170.236.111:33515?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15717347%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector2#9003686&PrivNet=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org&addrs=192.170.236.111-33515+[2605-9a00-10-200c-7efe-90ff-fea7-ef90]-33515&alias=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org&noUDP&sock=slot1_2_3356_5b02_346>
+...
+040 (6767504.276.000) 2026-10-14 10:13:32 Finished transferring input files
+...
+021 (6767504.276.000) 2026-10-14 10:13:33 Message from starter on slot1_2@IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767504.276.000) 2026-10-14 10:13:33 Job executing on host: <192.170.236.111:33515?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15717347%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector2#9003686&PrivNet=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org&addrs=192.170.236.111-33515+[2605-9a00-10-200c-7efe-90ff-fea7-ef90]-33515&alias=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org&noUDP&sock=startd_3350_665b>
+	SlotName: slot1_2@IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c011.ssl-hep.org
+	CondorScratchDir = "/pilot/osgvo-pilot-UmidcY/execute/dir_355950/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767504.276.000) 2026-10-14 10:13:41 Image size of job updated: 4668952
+	204  -  MemoryUsage of job (MB)
+	208688  -  ResidentSetSize of job (KB)
+...
+006 (6767504.276.000) 2026-10-14 10:18:41 Image size of job updated: 4769596
+	237  -  MemoryUsage of job (MB)
+	242308  -  ResidentSetSize of job (KB)
+...
+040 (6767504.276.000) 2026-10-14 10:20:15 Started transferring output files
+...
+040 (6767504.276.000) 2026-10-14 10:20:16 Finished transferring output files
+...
+004 (6767504.276.000) 2026-10-14 10:20:16 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:06:42, Sys 0 00:02:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9682  -  Run Bytes Sent By Job
+	1897562166  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.31        2         2 
+	   Disk (KB)            : 1853221     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     237         750       768 
+	   TimeExecute (s)      :     402                       
+	   TimeSlotBusy (s)     :     415                       
+...
+009 (6767504.276.000) 2026-10-14 10:20:16 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

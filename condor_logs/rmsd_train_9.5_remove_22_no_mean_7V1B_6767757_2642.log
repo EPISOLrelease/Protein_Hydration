@@ -1,0 +1,84 @@
+000 (6767757.2642.000) 2026-10-14 10:43:34 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767757.2642.000) 2026-10-14 11:11:48 Entered queue to transfer input files
+	Transferring to host: <10.226.104.104:38367?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15737765%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#9032236&PrivNet=epyc004.rci.montana.edu&addrs=10.226.104.104-38367&alias=epyc004.rci.montana.edu&noUDP>
+...
+040 (6767757.2642.000) 2026-10-14 11:12:06 Started transferring input files
+	Seconds spent in queue: 18
+...
+040 (6767757.2642.000) 2026-10-14 11:14:48 Finished transferring input files
+...
+021 (6767757.2642.000) 2026-10-14 11:14:50 Message from starter on slot1_2@glidein_922538_559059144@epyc004.rci.montana.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767757.2642.000) 2026-10-14 11:14:50 Job executing on host: <10.226.104.104:35635?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15711887%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9006291&PrivNet=epyc004.rci.montana.edu&addrs=10.226.104.104-35635&alias=epyc004.rci.montana.edu&noUDP>
+	SlotName: slot1_2@glidein_922538_559059144@epyc004.rci.montana.edu
+	CondorScratchDir = "/tmp/jobs/504790/glide_7sp8tn/execute/dir_651618/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767757.2642.000) 2026-10-14 11:14:59 Image size of job updated: 4514876
+	178  -  MemoryUsage of job (MB)
+	181944  -  ResidentSetSize of job (KB)
+...
+022 (6767757.2642.000) 2026-10-14 11:17:48 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_922538_559059144@epyc004.rci.montana.edu <10.226.104.104:35635?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15711887%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9006291&PrivNet=epyc004.rci.montana.edu&addrs=10.226.104.104-35635&alias=epyc004.rci.montana.edu&noUDP>
+...
+024 (6767757.2642.000) 2026-10-14 11:56:42 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_2@glidein_922538_559059144@epyc004.rci.montana.edu, rescheduling job
+...
+004 (6767757.2642.000) 2026-10-14 11:56:52 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1897440440  -  Run Bytes Received By Job
+	Reason: Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.90        2         2 
+	   Disk (KB)            : 1853104     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     178         750       768 
+...
+040 (6767757.2642.000) 2026-10-14 11:57:34 Started transferring input files
+	Seconds spent in queue: 2746
+...
+040 (6767757.2642.000) 2026-10-14 11:57:41 Finished transferring input files
+...
+001 (6767757.2642.000) 2026-10-14 11:57:46 Job executing on host: <128.105.69.236:9618?addrs=128.105.69.236-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-2044]-9618&alias=e2619.chtc.wisc.edu&noUDP&sock=startd_14908_39fa>
+	SlotName: slot1_46@e2619.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_80810/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6767757.2642.000) 2026-10-14 11:59:42 Started transferring output files
+	Seconds spent in queue: 2874
+...
+040 (6767757.2642.000) 2026-10-14 11:59:42 Finished transferring output files
+...
+005 (6767757.2642.000) 2026-10-14 11:59:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:40, Sys 0 00:01:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:41, Sys 0 00:01:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12658  -  Run Bytes Sent By Job
+	1897440440  -  Run Bytes Received By Job
+	12658  -  Total Bytes Sent By Job
+	3794880880  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.40        2         2 
+	   Disk (KB)            : 1853034     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     196        4000      4096 
+	   TimeExecute (s)      :     116                       
+	   TimeSlotBusy (s)     :     128                       
+...

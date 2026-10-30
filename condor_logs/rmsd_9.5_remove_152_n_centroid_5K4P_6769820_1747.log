@@ -1,0 +1,31 @@
+000 (6769820.1747.000) 2026-10-14 13:54:38 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769820.1747.000) 2026-10-14 14:05:10 Started transferring input files
+	Transferring to host: <10.226.104.135:34785?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15735591%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9031515&PrivNet=epyc035.rci.montana.edu&addrs=10.226.104.135-34785&alias=epyc035.rci.montana.edu&noUDP>
+...
+040 (6769820.1747.000) 2026-10-14 14:07:19 Finished transferring input files
+...
+022 (6769820.1747.000) 2026-10-14 14:07:21 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@glidein_1078230_131760180@epyc035.rci.montana.edu <10.226.104.135:36413?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15708154%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9010217&PrivNet=epyc035.rci.montana.edu&addrs=10.226.104.135-36413&alias=epyc035.rci.montana.edu&noUDP>
+...
+024 (6769820.1747.000) 2026-10-14 14:47:37 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_1@glidein_1078230_131760180@epyc035.rci.montana.edu, rescheduling job
+...
+004 (6769820.1747.000) 2026-10-14 14:48:04 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :   866342  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+009 (6769820.1747.000) 2026-10-14 14:48:04 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

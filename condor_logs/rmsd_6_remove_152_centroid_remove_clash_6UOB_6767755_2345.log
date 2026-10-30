@@ -1,0 +1,54 @@
+000 (6767755.2345.000) 2026-10-14 10:42:15 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767755.2345.000) 2026-10-14 10:56:15 Entered queue to transfer input files
+	Transferring to host: <10.226.104.125:37215?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15735179%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9024728&PrivNet=epyc025.rci.montana.edu&addrs=10.226.104.125-37215&alias=epyc025.rci.montana.edu&noUDP>
+...
+040 (6767755.2345.000) 2026-10-14 10:56:32 Started transferring input files
+	Seconds spent in queue: 17
+...
+040 (6767755.2345.000) 2026-10-14 10:57:38 Finished transferring input files
+...
+021 (6767755.2345.000) 2026-10-14 10:57:39 Message from starter on slot1_2@glidein_3370310_338856564@epyc025.rci.montana.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767755.2345.000) 2026-10-14 10:57:39 Job executing on host: <10.226.104.125:41147?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15714606%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9005101&PrivNet=epyc025.rci.montana.edu&addrs=10.226.104.125-41147&alias=epyc025.rci.montana.edu&noUDP>
+	SlotName: slot1_2@glidein_3370310_338856564@epyc025.rci.montana.edu
+	CondorScratchDir = "/tmp/jobs/523570/glide_t2Luce/execute/dir_945236/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767755.2345.000) 2026-10-14 10:57:48 Image size of job updated: 4440628
+	170  -  MemoryUsage of job (MB)
+	173752  -  ResidentSetSize of job (KB)
+...
+022 (6767755.2345.000) 2026-10-14 10:58:10 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_3370310_338856564@epyc025.rci.montana.edu <10.226.104.125:41147?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15714606%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9005101&PrivNet=epyc025.rci.montana.edu&addrs=10.226.104.125-41147&alias=epyc025.rci.montana.edu&noUDP>
+...
+023 (6767755.2345.000) 2026-10-14 10:58:11 Job reconnected to slot1_2@glidein_3370310_338856564@epyc025.rci.montana.edu
+    startd address: <10.226.104.125:41147?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15714606%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9005101&PrivNet=epyc025.rci.montana.edu&addrs=10.226.104.125-41147&alias=epyc025.rci.montana.edu&noUDP>
+    starter address: <10.226.104.125:37215?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15735179%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9024728&PrivNet=epyc025.rci.montana.edu&addrs=10.226.104.125-37215&alias=epyc025.rci.montana.edu&noUDP>
+...
+006 (6767755.2345.000) 2026-10-14 11:02:50 Image size of job updated: 4569052
+	245  -  MemoryUsage of job (MB)
+	250660  -  ResidentSetSize of job (KB)
+...
+004 (6767755.2345.000) 2026-10-14 11:07:49 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:08:49, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1899371399  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.89        2         2 
+	   Disk (KB)            : 1855290     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     245         750       768 
+	   TimeExecute (s)      :     601                       
+...
+009 (6767755.2345.000) 2026-10-14 11:07:49 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

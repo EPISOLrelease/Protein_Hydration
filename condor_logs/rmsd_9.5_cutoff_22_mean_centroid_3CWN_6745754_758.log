@@ -1,0 +1,74 @@
+000 (6745754.758.000) 2026-10-13 09:26:39 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6745754.758.000) 2026-10-13 09:29:11 Started transferring input files
+	Transferring to host: <128.105.68.22:9618?addrs=128.105.68.22-9618+[2607-f388-2200-100-be97-e1ff-fe9d-7bae]-9618&alias=oconnor2006.chtc.wisc.edu&noUDP&sock=backfill1_3_948653_9b8a_85396>
+...
+040 (6745754.758.000) 2026-10-13 09:29:12 Finished transferring input files
+...
+022 (6745754.758.000) 2026-10-13 09:29:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to backfill1_3@oconnor2006.chtc.wisc.edu <128.105.68.22:9618?addrs=128.105.68.22-9618+[2607-f388-2200-100-be97-e1ff-fe9d-7bae]-9618&alias=oconnor2006.chtc.wisc.edu&noUDP&sock=startd_11623_fd5e>
+...
+024 (6745754.758.000) 2026-10-13 09:29:12 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to backfill1_3@oconnor2006.chtc.wisc.edu, rescheduling job
+...
+004 (6745754.758.000) 2026-10-13 09:29:12 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :   206279  4194304   4194304 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6745754.758.000) 2026-10-13 09:29:14 Started transferring input files
+	Transferring to host: <128.105.69.226:9618?addrs=128.105.69.226-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-10fc]-9618&alias=e2609.chtc.wisc.edu&noUDP&sock=slot1_18_2402340_9b13_41906>
+...
+040 (6745754.758.000) 2026-10-13 09:29:24 Finished transferring input files
+...
+001 (6745754.758.000) 2026-10-13 09:29:29 Job executing on host: <128.105.69.226:9618?addrs=128.105.69.226-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-10fc]-9618&alias=e2609.chtc.wisc.edu&noUDP&sock=startd_15056_bdfe>
+	SlotName: slot1_18@e2609.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3719794/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6745754.758.000) 2026-10-13 09:29:38 Image size of job updated: 175652
+	172  -  MemoryUsage of job (MB)
+	175652  -  ResidentSetSize of job (KB)
+...
+006 (6745754.758.000) 2026-10-13 09:34:38 Image size of job updated: 177468
+	172  -  MemoryUsage of job (MB)
+	175820  -  ResidentSetSize of job (KB)
+...
+040 (6745754.758.000) 2026-10-13 09:39:25 Started transferring output files
+...
+040 (6745754.758.000) 2026-10-13 09:39:25 Finished transferring output files
+...
+005 (6745754.758.000) 2026-10-13 09:39:26 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:06, Sys 0 00:04:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:06, Sys 0 00:04:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12635  -  Run Bytes Sent By Job
+	1899211474  -  Run Bytes Received By Job
+	12635  -  Total Bytes Sent By Job
+	1899211474  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.42        2         2 
+	   Disk (KB)            : 1854828     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     172         750       768 
+	   TimeExecute (s)      :     596                       
+	   TimeSlotBusy (s)     :     611                       
+...

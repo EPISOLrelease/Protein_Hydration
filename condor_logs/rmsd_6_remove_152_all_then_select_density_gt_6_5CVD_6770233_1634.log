@@ -1,0 +1,85 @@
+000 (6770233.1634.000) 2026-10-14 14:30:56 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6770233.1634.000) 2026-10-14 14:42:02 Started transferring input files
+	Transferring to host: <10.5.10.21:46453?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15742206%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9039292&PrivNet=warlock21.beocat.ksu.edu&addrs=10.5.10.21-46453&alias=warlock21.beocat.ksu.edu&noUDP>
+...
+040 (6770233.1634.000) 2026-10-14 14:43:48 Finished transferring input files
+...
+021 (6770233.1634.000) 2026-10-14 14:44:41 Message from starter on slot1_1@glidein_784529_781159960@warlock21.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6770233.1634.000) 2026-10-14 14:45:11 Job executing on host: <10.5.10.21:39041?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15738069%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#9029915&PrivNet=warlock21.beocat.ksu.edu&addrs=10.5.10.21-39041&alias=warlock21.beocat.ksu.edu&noUDP>
+	SlotName: slot1_1@glidein_784529_781159960@warlock21.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_P6IROX/execute/dir_403440/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+022 (6770233.1634.000) 2026-10-14 14:46:44 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_1@glidein_784529_781159960@warlock21.beocat.ksu.edu <10.5.10.21:39041?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15738069%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#9029915&PrivNet=warlock21.beocat.ksu.edu&addrs=10.5.10.21-39041&alias=warlock21.beocat.ksu.edu&noUDP>
+...
+024 (6770233.1634.000) 2026-10-14 14:46:51 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_1@glidein_784529_781159960@warlock21.beocat.ksu.edu, rescheduling job
+...
+004 (6770233.1634.000) 2026-10-14 14:46:53 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1899257131  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1854876  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+	   TimeSlotBusy (s)     :      291                    
+...
+040 (6770233.1634.000) 2026-10-14 14:47:03 Started transferring input files
+	Transferring to host: <128.105.69.122:9618?addrs=128.105.69.122-9618+[2607-f388-2200-100-1270-fdff-fe56-c8bc]-9618&alias=e4071.chtc.wisc.edu&noUDP&sock=slot1_162_3362078_d947_42564>
+...
+040 (6770233.1634.000) 2026-10-14 14:47:17 Finished transferring input files
+...
+001 (6770233.1634.000) 2026-10-14 14:47:51 Job executing on host: <128.105.69.122:9618?addrs=128.105.69.122-9618+[2607-f388-2200-100-1270-fdff-fe56-c8bc]-9618&alias=e4071.chtc.wisc.edu&noUDP&sock=startd_14782_cd0b>
+	SlotName: slot1_162@e4071.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3002169/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6770233.1634.000) 2026-10-14 14:47:59 Image size of job updated: 164672
+	161  -  MemoryUsage of job (MB)
+	164672  -  ResidentSetSize of job (KB)
+...
+006 (6770233.1634.000) 2026-10-14 14:53:00 Image size of job updated: 166292
+	161  -  MemoryUsage of job (MB)
+	164672  -  ResidentSetSize of job (KB)
+...
+040 (6770233.1634.000) 2026-10-14 14:56:55 Started transferring output files
+...
+040 (6770233.1634.000) 2026-10-14 14:57:12 Finished transferring output files
+...
+005 (6770233.1634.000) 2026-10-14 14:57:14 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:08:48, Sys 0 00:03:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:08:48, Sys 0 00:03:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12823  -  Run Bytes Sent By Job
+	1899257131  -  Run Bytes Received By Job
+	12823  -  Total Bytes Sent By Job
+	3798514262  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.36        2         2 
+	   Disk (KB)            : 1855108     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     161         750       768 
+	   TimeExecute (s)      :     562                       
+	   TimeSlotBusy (s)     :     609                       
+...

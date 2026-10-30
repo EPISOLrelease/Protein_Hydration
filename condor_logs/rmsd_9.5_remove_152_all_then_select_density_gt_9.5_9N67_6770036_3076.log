@@ -1,0 +1,44 @@
+000 (6770036.3076.000) 2026-10-14 14:14:42 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6770036.3076.000) 2026-10-14 14:33:18 Started transferring input files
+	Transferring to host: <10.226.104.107:35397?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#15734823%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9039941&PrivNet=epyc007.rci.montana.edu&addrs=10.226.104.107-35397&alias=epyc007.rci.montana.edu&noUDP>
+...
+040 (6770036.3076.000) 2026-10-14 14:37:05 Finished transferring input files
+...
+021 (6770036.3076.000) 2026-10-14 14:37:17 Message from starter on slot1_4@glidein_3932011_796163328@epyc007.rci.montana.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6770036.3076.000) 2026-10-14 14:37:19 Job executing on host: <10.226.104.107:40765?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15718672%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9020643&PrivNet=epyc007.rci.montana.edu&addrs=10.226.104.107-40765&alias=epyc007.rci.montana.edu&noUDP>
+	SlotName: slot1_4@glidein_3932011_796163328@epyc007.rci.montana.edu
+	CondorScratchDir = "/tmp/jobs/524296/glide_dSFPeh/execute/dir_3241009/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6770036.3076.000) 2026-10-14 14:37:28 Image size of job updated: 4636788
+	254  -  MemoryUsage of job (MB)
+	259528  -  ResidentSetSize of job (KB)
+...
+040 (6770036.3076.000) 2026-10-14 14:41:46 Started transferring output files
+...
+040 (6770036.3076.000) 2026-10-14 14:42:01 Finished transferring output files
+...
+004 (6770036.3076.000) 2026-10-14 14:42:41 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:04:18, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9668  -  Run Bytes Sent By Job
+	1898889507  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.15        2         2 
+	   Disk (KB)            : 1854663     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     254         750       768 
+	   TimeExecute (s)      :     260                       
+	   TimeSlotBusy (s)     :     530                       
+...
+009 (6770036.3076.000) 2026-10-14 14:42:42 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

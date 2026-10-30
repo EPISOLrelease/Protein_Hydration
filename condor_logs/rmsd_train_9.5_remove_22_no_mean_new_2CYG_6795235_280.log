@@ -1,0 +1,80 @@
+000 (6795235.280.000) 2026-10-18 22:42:54 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6795235.280.000) 2026-10-18 23:02:04 Entered queue to transfer input files
+	Transferring to host: <10.242.15.228:34247?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#16071690%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f91a]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9343955&PrivNet=notch228.ipoib.int.chpc.utah.edu&addrs=10.242.15.228-34247&alias=notch228.ipoib.int.chpc.utah.edu&noUDP>
+...
+040 (6795235.280.000) 2026-10-18 23:02:22 Started transferring input files
+	Seconds spent in queue: 18
+...
+040 (6795235.280.000) 2026-10-18 23:10:41 Finished transferring input files
+...
+022 (6795235.280.000) 2026-10-18 23:10:41 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_9@glidein_1702237_151243120@notch228.ipoib.int.chpc.utah.edu <10.242.15.228:45351?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#16056804%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f91a]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9332091&PrivNet=notch228.ipoib.int.chpc.utah.edu&addrs=10.242.15.228-45351&alias=notch228.ipoib.int.chpc.utah.edu&noUDP>
+...
+024 (6795235.280.000) 2026-10-18 23:10:42 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_9@glidein_1702237_151243120@notch228.ipoib.int.chpc.utah.edu, rescheduling job
+...
+004 (6795235.280.000) 2026-10-18 23:10:43 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :   595899  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6795235.280.000) 2026-10-18 23:10:51 Entered queue to transfer input files
+	Transferring to host: <128.105.68.54:9618?addrs=128.105.68.54-9618+[2607-f388-2200-100-3680-dff-fe2e-8648]-9618&alias=e2484.chtc.wisc.edu&noUDP&sock=backfill1_56_1238883_e5e4_41461>
+...
+040 (6795235.280.000) 2026-10-18 23:10:55 Started transferring input files
+	Seconds spent in queue: 4
+...
+040 (6795235.280.000) 2026-10-18 23:11:14 Finished transferring input files
+...
+001 (6795235.280.000) 2026-10-18 23:11:14 Job executing on host: <128.105.68.54:9618?addrs=128.105.68.54-9618+[2607-f388-2200-100-3680-dff-fe2e-8648]-9618&alias=e2484.chtc.wisc.edu&noUDP&sock=startd_12114_c65e>
+	SlotName: backfill1_56@e2484.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1643515/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6795235.280.000) 2026-10-18 23:11:23 Image size of job updated: 137000
+	134  -  MemoryUsage of job (MB)
+	137000  -  ResidentSetSize of job (KB)
+...
+006 (6795235.280.000) 2026-10-18 23:15:08 Image size of job updated: 137900
+	134  -  MemoryUsage of job (MB)
+	137000  -  ResidentSetSize of job (KB)
+...
+040 (6795235.280.000) 2026-10-18 23:15:08 Started transferring output files
+	Seconds spent in queue: 257
+...
+040 (6795235.280.000) 2026-10-18 23:15:08 Finished transferring output files
+...
+005 (6795235.280.000) 2026-10-18 23:15:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:35, Sys 0 00:01:50  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:35, Sys 0 00:01:50  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12673  -  Run Bytes Sent By Job
+	1897600348  -  Run Bytes Received By Job
+	12673  -  Total Bytes Sent By Job
+	1897600348  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.39        2         2 
+	   Disk (KB)            : 1853251     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     134         750       768 
+	   TimeExecute (s)      :     234                       
+	   TimeSlotBusy (s)     :     262                       
+...

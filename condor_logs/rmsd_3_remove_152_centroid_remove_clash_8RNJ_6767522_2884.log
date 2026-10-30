@@ -1,0 +1,52 @@
+000 (6767522.2884.000) 2026-10-14 10:16:26 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767522.2884.000) 2026-10-14 10:31:48 Entered queue to transfer input files
+	Transferring to host: <192.168.182.128:35783?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#14482118%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#7783791&PrivNet=SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442&addrs=192.168.182.128-35783&alias=SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442&noUDP&sock=slot1_72_4060_631e_34451>
+...
+040 (6767522.2884.000) 2026-10-14 10:36:36 Started transferring input files
+	Seconds spent in queue: 288
+...
+040 (6767522.2884.000) 2026-10-14 10:37:13 Finished transferring input files
+...
+021 (6767522.2884.000) 2026-10-14 10:37:14 Message from starter on slot1_72@SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767522.2884.000) 2026-10-14 10:37:14 Job executing on host: <192.168.182.128:35783?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#14482118%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#7783791&PrivNet=SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442&addrs=192.168.182.128-35783&alias=SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442&noUDP&sock=startd_4054_4908>
+	SlotName: slot1_72@SYRA-PATH-EP.osgvo-docker-pilot-ospool-7c8b4d4476-5c442
+	CondorScratchDir = "/pilot/osgvo-pilot-AilfDs/execute/dir_1868463/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767522.2884.000) 2026-10-14 10:37:22 Image size of job updated: 1
+	4  -  MemoryUsage of job (MB)
+	3140  -  ResidentSetSize of job (KB)
+...
+006 (6767522.2884.000) 2026-10-14 10:41:34 Image size of job updated: 4506676
+	219  -  MemoryUsage of job (MB)
+	223604  -  ResidentSetSize of job (KB)
+...
+040 (6767522.2884.000) 2026-10-14 10:41:35 Started transferring output files
+	Seconds spent in queue: 587
+...
+040 (6767522.2884.000) 2026-10-14 10:41:36 Finished transferring output files
+...
+004 (6767522.2884.000) 2026-10-14 10:41:37 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:04:06, Sys 0 00:01:40  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9708  -  Run Bytes Sent By Job
+	1898424138  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.42        2         2 
+	   Disk (KB)            : 1854088     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     219         750       768 
+	   TimeExecute (s)      :     260                       
+	   TimeSlotBusy (s)     :     593                       
+...
+009 (6767522.2884.000) 2026-10-14 10:41:37 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

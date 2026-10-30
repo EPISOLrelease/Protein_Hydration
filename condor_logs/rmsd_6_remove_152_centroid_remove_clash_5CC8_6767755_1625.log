@@ -1,0 +1,52 @@
+000 (6767755.1625.000) 2026-10-14 10:42:15 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767755.1625.000) 2026-10-14 10:51:48 Entered queue to transfer input files
+	Transferring to host: <192.170.236.118:42023?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector4#15559842%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#8860302&PrivNet=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org&addrs=192.170.236.118-42023+[2605-9a00-10-200c-7efe-90ff-fea7-f2f0]-42023&alias=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org&noUDP&sock=slot1_14_3359_7822_2886>
+...
+040 (6767755.1625.000) 2026-10-14 10:51:59 Started transferring input files
+	Seconds spent in queue: 11
+...
+040 (6767755.1625.000) 2026-10-14 10:52:10 Finished transferring input files
+...
+021 (6767755.1625.000) 2026-10-14 10:52:11 Message from starter on slot1_14@IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767755.1625.000) 2026-10-14 10:52:11 Job executing on host: <192.170.236.118:42023?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector4#15559842%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#8860302&PrivNet=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org&addrs=192.170.236.118-42023+[2605-9a00-10-200c-7efe-90ff-fea7-f2f0]-42023&alias=IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org&noUDP&sock=startd_3353_7524>
+	SlotName: slot1_14@IRISHEP-SSL-RIVER-DEV-BACKFILL.river-c018.ssl-hep.org
+	CondorScratchDir = "/pilot/osgvo-pilot-PtfjTW/execute/dir_2723127/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767755.1625.000) 2026-10-14 10:52:19 Image size of job updated: 4393448
+	123  -  MemoryUsage of job (MB)
+	125244  -  ResidentSetSize of job (KB)
+...
+006 (6767755.1625.000) 2026-10-14 10:57:19 Image size of job updated: 4714476
+	253  -  MemoryUsage of job (MB)
+	258592  -  ResidentSetSize of job (KB)
+...
+040 (6767755.1625.000) 2026-10-14 11:07:35 Started transferring output files
+	Seconds spent in queue: 947
+...
+040 (6767755.1625.000) 2026-10-14 11:07:41 Finished transferring output files
+...
+004 (6767755.1625.000) 2026-10-14 11:07:44 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:15:49, Sys 0 00:05:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9672  -  Run Bytes Sent By Job
+	1898899799  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.36        2         2 
+	   Disk (KB)            : 1854614     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     253         750       768 
+	   TimeExecute (s)      :     923                       
+	   TimeSlotBusy (s)     :     955                       
+...
+009 (6767755.1625.000) 2026-10-14 11:07:45 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

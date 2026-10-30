@@ -1,0 +1,52 @@
+000 (6767522.2622.000) 2026-10-14 10:16:26 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767522.2622.000) 2026-10-14 10:29:40 Entered queue to transfer input files
+	Transferring to host: <192.168.67.4:35187?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#14831569%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#8134216&PrivNet=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn&addrs=192.168.67.4-35187+[2600-900-6-1181-323a-2188-5683-a765]-35187&alias=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn&noUDP&sock=slot1_23_3975_7f3b_16300>
+...
+040 (6767522.2622.000) 2026-10-14 10:34:13 Started transferring input files
+	Seconds spent in queue: 273
+...
+040 (6767522.2622.000) 2026-10-14 10:34:34 Finished transferring input files
+...
+021 (6767522.2622.000) 2026-10-14 10:34:35 Message from starter on slot1_23@UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767522.2622.000) 2026-10-14 10:34:35 Job executing on host: <192.168.67.4:35187?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#14831569%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#8134216&PrivNet=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn&addrs=192.168.67.4-35187+[2600-900-6-1181-323a-2188-5683-a765]-35187&alias=UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn&noUDP&sock=startd_3969_fb7b>
+	SlotName: slot1_23@UNL-PATH-EP.osgvo-docker-pilot-ospool-bdc6cf4c6-zc5sn
+	CondorScratchDir = "/pilot/osgvo-pilot-I44W0Q/execute/dir_1219490/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767522.2622.000) 2026-10-14 10:34:43 Image size of job updated: 6668104
+	247  -  MemoryUsage of job (MB)
+	252604  -  ResidentSetSize of job (KB)
+...
+006 (6767522.2622.000) 2026-10-14 10:39:43 Image size of job updated: 6669008
+	248  -  MemoryUsage of job (MB)
+	253428  -  ResidentSetSize of job (KB)
+...
+040 (6767522.2622.000) 2026-10-14 10:41:34 Started transferring output files
+	Seconds spent in queue: 714
+...
+040 (6767522.2622.000) 2026-10-14 10:41:34 Finished transferring output files
+...
+004 (6767522.2622.000) 2026-10-14 10:41:35 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:06:28, Sys 0 00:02:46  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9680  -  Run Bytes Sent By Job
+	1898141523  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.37        2         2 
+	   Disk (KB)            : 1853912     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     248         750       768 
+	   TimeExecute (s)      :     418                       
+	   TimeSlotBusy (s)     :     720                       
+...
+009 (6767522.2622.000) 2026-10-14 10:41:35 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

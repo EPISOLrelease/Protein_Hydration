@@ -1,0 +1,87 @@
+000 (6770036.1248.000) 2026-10-14 14:14:42 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6770036.1248.000) 2026-10-14 14:23:51 Started transferring input files
+	Transferring to host: <10.5.10.28:33911?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15742947%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9032547&PrivNet=warlock28.beocat.ksu.edu&addrs=10.5.10.28-33911&alias=warlock28.beocat.ksu.edu&noUDP>
+...
+040 (6770036.1248.000) 2026-10-14 14:24:12 Finished transferring input files
+...
+021 (6770036.1248.000) 2026-10-14 14:24:13 Message from starter on slot1_2@glidein_412516_91155350@warlock28.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6770036.1248.000) 2026-10-14 14:24:13 Job executing on host: <10.5.10.28:37875?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15715210%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9011203&PrivNet=warlock28.beocat.ksu.edu&addrs=10.5.10.28-37875&alias=warlock28.beocat.ksu.edu&noUDP>
+	SlotName: slot1_2@glidein_412516_91155350@warlock28.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_oLa4wK/execute/dir_4143644/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+022 (6770036.1248.000) 2026-10-14 14:24:13 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_412516_91155350@warlock28.beocat.ksu.edu <10.5.10.28:37875?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15715210%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9011203&PrivNet=warlock28.beocat.ksu.edu&addrs=10.5.10.28-37875&alias=warlock28.beocat.ksu.edu&noUDP>
+...
+024 (6770036.1248.000) 2026-10-14 14:24:13 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_2@glidein_412516_91155350@warlock28.beocat.ksu.edu, rescheduling job
+...
+004 (6770036.1248.000) 2026-10-14 14:24:14 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1898231237  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1853875  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+	   TimeSlotBusy (s)     :       22                    
+...
+040 (6770036.1248.000) 2026-10-14 14:24:15 Started transferring input files
+	Transferring to host: <141.142.150.76:23275?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15736475%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9032572&PrivNet=rails06&addrs=141.142.150.76-23275&alias=rails06&noUDP>
+...
+040 (6770036.1248.000) 2026-10-14 14:24:25 Finished transferring input files
+...
+021 (6770036.1248.000) 2026-10-14 14:24:25 Message from starter on slot1_7@glidein_410731_161887048@rails06:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6770036.1248.000) 2026-10-14 14:24:25 Job executing on host: <141.142.150.76:20911?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#15731813%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#9031516&PrivNet=rails06&addrs=141.142.150.76-20911&alias=rails06&noUDP>
+	SlotName: slot1_7@glidein_410731_161887048@rails06
+	AvailableGPUs = {  }
+	CondorScratchDir = "/projects/bcxl/svcosguser/glide_DZMsEM/execute/dir_481844/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6770036.1248.000) 2026-10-14 14:24:34 Image size of job updated: 1
+	6  -  MemoryUsage of job (MB)
+	5716  -  ResidentSetSize of job (KB)
+...
+006 (6770036.1248.000) 2026-10-14 14:26:32 Image size of job updated: 4522364
+	246  -  MemoryUsage of job (MB)
+	250896  -  ResidentSetSize of job (KB)
+...
+040 (6770036.1248.000) 2026-10-14 14:26:32 Started transferring output files
+...
+040 (6770036.1248.000) 2026-10-14 14:26:32 Finished transferring output files
+...
+005 (6770036.1248.000) 2026-10-14 14:26:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:53, Sys 0 00:00:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:53, Sys 0 00:00:48  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12727  -  Run Bytes Sent By Job
+	1898231237  -  Run Bytes Received By Job
+	12727  -  Total Bytes Sent By Job
+	3796462474  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.28        2         2 
+	   Disk (KB)            : 1853789     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     246         750       768 
+	   TimeExecute (s)      :     127                       
+	   TimeSlotBusy (s)     :     137                       
+...

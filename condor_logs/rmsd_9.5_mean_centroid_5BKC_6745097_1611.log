@@ -1,0 +1,52 @@
+000 (6745097.1611.000) 2026-10-12 22:08:19 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6745097.1611.000) 2026-10-12 22:29:07 Started transferring input files
+	Transferring to host: <10.5.18.22:33741?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector4#15602862%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#8895961&PrivNet=wizard22.beocat.ksu.edu&addrs=10.5.18.22-33741&alias=wizard22.beocat.ksu.edu&noUDP>
+...
+040 (6745097.1611.000) 2026-10-12 22:29:22 Finished transferring input files
+...
+021 (6745097.1611.000) 2026-10-12 22:29:23 Message from starter on slot1_3@glidein_231964_243233382@wizard22.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6745097.1611.000) 2026-10-12 22:29:23 Job executing on host: <10.5.18.22:39961?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15589630%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#8885506&PrivNet=wizard22.beocat.ksu.edu&addrs=10.5.18.22-39961&alias=wizard22.beocat.ksu.edu&noUDP>
+	SlotName: slot1_3@glidein_231964_243233382@wizard22.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_r4vAfn/execute/dir_1108638/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6745097.1611.000) 2026-10-12 22:29:33 Image size of job updated: 3101596
+	119  -  MemoryUsage of job (MB)
+	121272  -  ResidentSetSize of job (KB)
+...
+006 (6745097.1611.000) 2026-10-12 22:34:33 Image size of job updated: 3398640
+	263  -  MemoryUsage of job (MB)
+	268456  -  ResidentSetSize of job (KB)
+...
+006 (6745097.1611.000) 2026-10-12 22:39:33 Image size of job updated: 3398640
+	311  -  MemoryUsage of job (MB)
+	317864  -  ResidentSetSize of job (KB)
+...
+040 (6745097.1611.000) 2026-10-12 22:40:52 Started transferring output files
+...
+040 (6745097.1611.000) 2026-10-12 22:40:52 Finished transferring output files
+...
+005 (6745097.1611.000) 2026-10-12 22:40:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:11:14, Sys 0 00:03:42  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:11:14, Sys 0 00:03:42  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12597  -  Run Bytes Sent By Job
+	1898838938  -  Run Bytes Received By Job
+	12597  -  Total Bytes Sent By Job
+	1898838938  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.30        2         2 
+	   Disk (KB)            : 1854583     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     311         750       768 
+	   TimeExecute (s)      :     689                       
+	   TimeSlotBusy (s)     :     706                       
+...

@@ -1,0 +1,23 @@
+000 (6769590.671.000) 2026-10-14 13:33:03 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769590.671.000) 2026-10-14 13:39:32 Started transferring input files
+	Transferring to host: <172.20.247.69:41571?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15732339%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#9030980&PrivNet=IU-Jetstream2-Backfill.green-7b499568d4-b86sr&addrs=172.20.247.69-41571&alias=IU-Jetstream2-Backfill.green-7b499568d4-b86sr&noUDP&sock=slot1_12_3589_866b_344>
+...
+040 (6769590.671.000) 2026-10-14 13:39:42 Finished transferring input files
+...
+004 (6769590.671.000) 2026-10-14 13:39:43 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  1714509  4194304   4195328 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+009 (6769590.671.000) 2026-10-14 13:39:43 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

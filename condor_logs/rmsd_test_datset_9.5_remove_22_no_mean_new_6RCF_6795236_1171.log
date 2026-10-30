@@ -1,0 +1,48 @@
+000 (6795236.1171.000) 2026-10-18 22:43:17 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6795236.1171.000) 2026-10-18 23:22:45 Started transferring input files
+	Transferring to host: <10.226.104.108:36811?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#16068196%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f91a]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#9354974&PrivNet=epyc008.rci.montana.edu&addrs=10.226.104.108-36811&alias=epyc008.rci.montana.edu&noUDP>
+...
+040 (6795236.1171.000) 2026-10-18 23:26:45 Finished transferring input files
+...
+021 (6795236.1171.000) 2026-10-18 23:26:46 Message from starter on slot1_7@glidein_2816458_44606884@epyc008.rci.montana.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6795236.1171.000) 2026-10-18 23:26:46 Job executing on host: <10.226.104.108:41325?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#16033022%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f91a]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9322008&PrivNet=epyc008.rci.montana.edu&addrs=10.226.104.108-41325&alias=epyc008.rci.montana.edu&noUDP>
+	SlotName: slot1_7@glidein_2816458_44606884@epyc008.rci.montana.edu
+	CondorScratchDir = "/tmp/jobs/834953/glide_EZbJIM/execute/dir_3852040/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6795236.1171.000) 2026-10-18 23:26:54 Image size of job updated: 4396416
+	140  -  MemoryUsage of job (MB)
+	143128  -  ResidentSetSize of job (KB)
+...
+006 (6795236.1171.000) 2026-10-18 23:27:32 Image size of job updated: 4542212
+	207  -  MemoryUsage of job (MB)
+	211032  -  ResidentSetSize of job (KB)
+...
+040 (6795236.1171.000) 2026-10-18 23:27:33 Started transferring output files
+...
+040 (6795236.1171.000) 2026-10-18 23:27:33 Finished transferring output files
+...
+005 (6795236.1171.000) 2026-10-18 23:27:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:28, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:28, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12572  -  Run Bytes Sent By Job
+	1896952624  -  Run Bytes Received By Job
+	12572  -  Total Bytes Sent By Job
+	1896952624  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.83        2         2 
+	   Disk (KB)            : 1852688     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     207         750       768 
+	   TimeExecute (s)      :      46                       
+	   TimeSlotBusy (s)     :     295                       
+...

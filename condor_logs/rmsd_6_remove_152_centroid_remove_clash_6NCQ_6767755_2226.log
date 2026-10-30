@@ -1,0 +1,128 @@
+000 (6767755.2226.000) 2026-10-14 10:42:15 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767755.2226.000) 2026-10-14 10:55:24 Entered queue to transfer input files
+	Transferring to host: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+040 (6767755.2226.000) 2026-10-14 10:55:45 Started transferring input files
+	Seconds spent in queue: 21
+...
+040 (6767755.2226.000) 2026-10-14 10:56:48 Finished transferring input files
+...
+021 (6767755.2226.000) 2026-10-14 10:56:49 Message from starter on slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767755.2226.000) 2026-10-14 10:56:49 Job executing on host: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+	SlotName: slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+	CondorScratchDir = "/tmp/jobs/509378/glide_xiGGMZ/execute/dir_300581/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767755.2226.000) 2026-10-14 10:56:58 Image size of job updated: 1
+	5  -  MemoryUsage of job (MB)
+	4240  -  ResidentSetSize of job (KB)
+...
+022 (6767755.2226.000) 2026-10-14 10:57:35 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+...
+023 (6767755.2226.000) 2026-10-14 10:57:35 Job reconnected to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+    startd address: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+    starter address: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+006 (6767755.2226.000) 2026-10-14 10:59:44 Image size of job updated: 4547488
+	216  -  MemoryUsage of job (MB)
+	220620  -  ResidentSetSize of job (KB)
+...
+022 (6767755.2226.000) 2026-10-14 10:59:50 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+...
+023 (6767755.2226.000) 2026-10-14 10:59:52 Job reconnected to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+    startd address: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+    starter address: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+022 (6767755.2226.000) 2026-10-14 10:59:57 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+...
+023 (6767755.2226.000) 2026-10-14 10:59:58 Job reconnected to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+    startd address: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+    starter address: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+022 (6767755.2226.000) 2026-10-14 11:00:03 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+...
+023 (6767755.2226.000) 2026-10-14 11:00:04 Job reconnected to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+    startd address: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+    starter address: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+022 (6767755.2226.000) 2026-10-14 11:00:09 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+...
+023 (6767755.2226.000) 2026-10-14 11:00:10 Job reconnected to slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu
+    startd address: <10.226.104.113:40415?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15709370%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9005512&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-40415&alias=epyc013.rci.montana.edu&noUDP>
+    starter address: <10.226.104.113:39535?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15732177%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031922&PrivNet=epyc013.rci.montana.edu&addrs=10.226.104.113-39535&alias=epyc013.rci.montana.edu&noUDP>
+...
+021 (6767755.2226.000) 2026-10-14 11:00:15 Error from starter on slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu:
+	Failed to receive GoAhead message from 128.105.68.113.
+...
+004 (6767755.2226.000) 2026-10-14 11:00:15 Job was evicted. Code 1007 Subcode 0
+	(0) CPU times
+		Usr 0 00:02:32, Sys 0 00:01:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1897795506  -  Run Bytes Received By Job
+	Reason: Error from slot1_3@glidein_977667_362034508@epyc013.rci.montana.edu: Failed to receive GoAhead message from 128.105.68.113.
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.27        2         2 
+	   Disk (KB)            : 1853212     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     216         750       768 
+	   TimeExecute (s)      :     176                       
+	   TimeSlotBusy (s)     :     299                       
+...
+040 (6767755.2226.000) 2026-10-14 11:01:52 Entered queue to transfer input files
+	Transferring to host: <128.105.76.44:9618?addrs=128.105.76.44-9618+[2607-f388-2200-100-3680-dff-fef7-17f0]-9618&alias=oconnor2007.chtc.wisc.edu&noUDP&sock=backfill1_2_780093_d6c3_39123>
+...
+040 (6767755.2226.000) 2026-10-14 11:02:04 Started transferring input files
+	Seconds spent in queue: 12
+...
+040 (6767755.2226.000) 2026-10-14 11:02:11 Finished transferring input files
+...
+001 (6767755.2226.000) 2026-10-14 11:02:16 Job executing on host: <128.105.76.44:9618?addrs=128.105.76.44-9618+[2607-f388-2200-100-3680-dff-fef7-17f0]-9618&alias=oconnor2007.chtc.wisc.edu&noUDP&sock=startd_10090_7aae>
+	SlotName: backfill1_2@oconnor2007.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3005963/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6767755.2226.000) 2026-10-14 11:04:37 Started transferring output files
+	Seconds spent in queue: 165
+...
+040 (6767755.2226.000) 2026-10-14 11:04:37 Finished transferring output files
+...
+005 (6767755.2226.000) 2026-10-14 11:04:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:21, Sys 0 00:00:44  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:53, Sys 0 00:01:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13338  -  Run Bytes Sent By Job
+	1897795506  -  Run Bytes Received By Job
+	13338  -  Total Bytes Sent By Job
+	3795591012  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.31        2         2 
+	   Disk (KB)            : 1853540     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     220        4000      4096 
+	   TimeExecute (s)      :     141                       
+	   TimeSlotBusy (s)     :     170                       
+...

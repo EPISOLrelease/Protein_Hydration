@@ -1,0 +1,69 @@
+000 (6745097.417.000) 2026-10-12 22:08:20 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+022 (6745097.417.000) 2026-10-12 22:17:55 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_5@glidein_1712094_180267759@epyc014.rci.montana.edu <10.226.104.114:40307?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15589480%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8889114&PrivNet=epyc014.rci.montana.edu&addrs=10.226.104.114-40307&alias=epyc014.rci.montana.edu&noUDP>
+...
+024 (6745097.417.000) 2026-10-12 22:18:04 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_5@glidein_1712094_180267759@epyc014.rci.montana.edu, rescheduling job
+...
+004 (6745097.417.000) 2026-10-12 22:18:04 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2000000  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6745097.417.000) 2026-10-12 22:18:08 Started transferring input files
+	Transferring to host: <10.5.16.28:34267?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15600747%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#8896597&PrivNet=dwarf28.beocat.ksu.edu&addrs=10.5.16.28-34267&alias=dwarf28.beocat.ksu.edu&noUDP>
+...
+040 (6745097.417.000) 2026-10-12 22:18:30 Finished transferring input files
+...
+021 (6745097.417.000) 2026-10-12 22:18:31 Message from starter on slot1_3@glidein_1159417_367957362@dwarf28.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6745097.417.000) 2026-10-12 22:18:31 Job executing on host: <10.5.16.28:43591?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15599665%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8896124&PrivNet=dwarf28.beocat.ksu.edu&addrs=10.5.16.28-43591&alias=dwarf28.beocat.ksu.edu&noUDP>
+	SlotName: slot1_3@glidein_1159417_367957362@dwarf28.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_F6kMFR/execute/dir_1594552/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6745097.417.000) 2026-10-12 22:18:40 Image size of job updated: 2960492
+	116  -  MemoryUsage of job (MB)
+	118044  -  ResidentSetSize of job (KB)
+...
+006 (6745097.417.000) 2026-10-12 22:20:34 Image size of job updated: 3320332
+	248  -  MemoryUsage of job (MB)
+	253368  -  ResidentSetSize of job (KB)
+...
+040 (6745097.417.000) 2026-10-12 22:20:34 Started transferring output files
+...
+040 (6745097.417.000) 2026-10-12 22:20:34 Finished transferring output files
+...
+005 (6745097.417.000) 2026-10-12 22:20:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:58, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:58, Sys 0 00:00:39  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12527  -  Run Bytes Sent By Job
+	1897892803  -  Run Bytes Received By Job
+	12527  -  Total Bytes Sent By Job
+	1897892803  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.28        2         2 
+	   Disk (KB)            : 1853550     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     248         750       768 
+	   TimeExecute (s)      :     123                       
+	   TimeSlotBusy (s)     :     146                       
+...

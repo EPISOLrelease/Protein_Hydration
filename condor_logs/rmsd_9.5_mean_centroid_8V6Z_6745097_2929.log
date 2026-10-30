@@ -1,0 +1,43 @@
+000 (6745097.2929.000) 2026-10-12 22:08:19 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6745097.2929.000) 2026-10-12 22:47:28 Started transferring input files
+	Transferring to host: <128.105.69.74:9618?addrs=128.105.69.74-9618+[2607-f388-2200-100-6e92-cfff-feed-a8f0]-9618&alias=oconnor4001.chtc.wisc.edu&noUDP&sock=backfill1_75_1918554_9a7a_51737>
+...
+040 (6745097.2929.000) 2026-10-12 22:47:35 Finished transferring input files
+...
+001 (6745097.2929.000) 2026-10-12 22:47:35 Job executing on host: <128.105.69.74:9618?addrs=128.105.69.74-9618+[2607-f388-2200-100-6e92-cfff-feed-a8f0]-9618&alias=oconnor4001.chtc.wisc.edu&noUDP&sock=startd_14968_61a9>
+	SlotName: backfill1_75@oconnor4001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1727340/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6745097.2929.000) 2026-10-12 22:47:44 Image size of job updated: 145820
+	143  -  MemoryUsage of job (MB)
+	145820  -  ResidentSetSize of job (KB)
+...
+040 (6745097.2929.000) 2026-10-12 22:48:41 Started transferring output files
+...
+040 (6745097.2929.000) 2026-10-12 22:48:41 Finished transferring output files
+...
+005 (6745097.2929.000) 2026-10-12 22:48:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:59, Sys 0 00:00:35  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:59, Sys 0 00:00:35  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12606  -  Run Bytes Sent By Job
+	1897381106  -  Run Bytes Received By Job
+	12606  -  Total Bytes Sent By Job
+	1897381106  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.43        2         2 
+	   Disk (KB)            : 1853076     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     143         750       768 
+	   TimeExecute (s)      :      66                       
+	   TimeSlotBusy (s)     :      74                       
+...

@@ -1,0 +1,81 @@
+000 (6744763.025.000) 2026-10-12 16:38:13 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744763.025.000) 2026-10-12 16:38:52 Started transferring input files
+	Transferring to host: <128.105.69.87:9618?addrs=128.105.69.87-9618+[2607-f388-2200-100-1618-77ff-fe34-e6f4]-9618&alias=gitter2000.chtc.wisc.edu&noUDP&sock=backfill1_2_1621527_362c_37879>
+...
+040 (6744763.025.000) 2026-10-12 16:39:37 Finished transferring input files
+...
+001 (6744763.025.000) 2026-10-12 16:39:37 Job executing on host: <128.105.69.87:9618?addrs=128.105.69.87-9618+[2607-f388-2200-100-1618-77ff-fe34-e6f4]-9618&alias=gitter2000.chtc.wisc.edu&noUDP&sock=startd_9594_43b5>
+	SlotName: backfill1_2@gitter2000.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_731565/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6744763.025.000) 2026-10-12 16:39:46 Image size of job updated: 143420
+	141  -  MemoryUsage of job (MB)
+	143420  -  ResidentSetSize of job (KB)
+...
+006 (6744763.025.000) 2026-10-12 16:40:02 Image size of job updated: 143432
+	141  -  MemoryUsage of job (MB)
+	143420  -  ResidentSetSize of job (KB)
+...
+040 (6744763.025.000) 2026-10-12 16:40:02 Started transferring output files
+...
+040 (6744763.025.000) 2026-10-12 16:40:02 Finished transferring output files
+...
+004 (6744763.025.000) 2026-10-12 16:40:02 Job was evicted. Code 1011 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:25, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	1505  -  Run Bytes Sent By Job
+	1897789661  -  Run Bytes Received By Job
+	Reason: PREEMPT expression evaluated to True
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.25        2         2 
+	   Disk (KB)            : 1853838     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     141         750       768 
+	   TimeExecute (s)      :      25                       
+	   TimeSlotBusy (s)     :      70                       
+...
+040 (6744763.025.000) 2026-10-12 16:40:37 Started transferring input files
+	Transferring to host: <128.105.68.21:9618?addrs=128.105.68.21-9618+[2607-f388-2200-100-be97-e1ff-fe9e-22be]-9618&alias=oconnor2005.chtc.wisc.edu&noUDP&sock=backfill1_11_1015999_f4fc_22268>
+...
+040 (6744763.025.000) 2026-10-12 16:40:47 Finished transferring input files
+...
+001 (6744763.025.000) 2026-10-12 16:40:47 Job executing on host: <128.105.68.21:9618?addrs=128.105.68.21-9618+[2607-f388-2200-100-be97-e1ff-fe9e-22be]-9618&alias=oconnor2005.chtc.wisc.edu&noUDP&sock=startd_11000_a9dd>
+	SlotName: backfill1_11@oconnor2005.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3644136/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6744763.025.000) 2026-10-12 16:54:45 Started transferring output files
+...
+040 (6744763.025.000) 2026-10-12 16:54:45 Finished transferring output files
+...
+005 (6744763.025.000) 2026-10-12 16:54:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:14:13, Sys 0 00:04:47  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:14:38, Sys 0 00:04:52  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12660  -  Run Bytes Sent By Job
+	1897791166  -  Run Bytes Received By Job
+	14165  -  Total Bytes Sent By Job
+	3795580827  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.36        2         2 
+	   Disk (KB)            : 1853980     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     147        4000      4096 
+	   TimeExecute (s)      :     838                       
+	   TimeSlotBusy (s)     :     848                       
+...

@@ -1,0 +1,89 @@
+000 (6767755.2333.000) 2026-10-14 10:42:15 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767755.2333.000) 2026-10-14 10:56:13 Entered queue to transfer input files
+	Transferring to host: <10.5.10.33:46235?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15737338%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#9031839&PrivNet=warlock33.beocat.ksu.edu&addrs=10.5.10.33-46235&alias=warlock33.beocat.ksu.edu&noUDP>
+...
+040 (6767755.2333.000) 2026-10-14 10:56:22 Started transferring input files
+	Seconds spent in queue: 9
+...
+040 (6767755.2333.000) 2026-10-14 10:56:41 Finished transferring input files
+...
+021 (6767755.2333.000) 2026-10-14 10:56:42 Message from starter on slot1_2@glidein_2090470_501832520@warlock33.beocat.ksu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767755.2333.000) 2026-10-14 10:56:42 Job executing on host: <10.5.10.33:46427?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15716376%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9018420&PrivNet=warlock33.beocat.ksu.edu&addrs=10.5.10.33-46427&alias=warlock33.beocat.ksu.edu&noUDP>
+	SlotName: slot1_2@glidein_2090470_501832520@warlock33.beocat.ksu.edu
+	CondorScratchDir = "/tmp/glide_KgSOoE/execute/dir_3507850/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+022 (6767755.2333.000) 2026-10-14 10:56:42 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_2090470_501832520@warlock33.beocat.ksu.edu <10.5.10.33:46427?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15716376%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9018420&PrivNet=warlock33.beocat.ksu.edu&addrs=10.5.10.33-46427&alias=warlock33.beocat.ksu.edu&noUDP>
+...
+024 (6767755.2333.000) 2026-10-14 10:56:42 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_2@glidein_2090470_501832520@warlock33.beocat.ksu.edu, rescheduling job
+...
+004 (6767755.2333.000) 2026-10-14 10:56:42 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1897373077  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1853037  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+	   TimeSlotBusy (s)     :       35                    
+...
+040 (6767755.2333.000) 2026-10-14 10:56:52 Entered queue to transfer input files
+	Transferring to host: <172.16.33.20:45877?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#15726640%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#9031961&PrivNet=n020.cluster.com&addrs=172.16.33.20-45877&alias=n020.cluster.com&noUDP>
+...
+040 (6767755.2333.000) 2026-10-14 10:57:10 Started transferring input files
+	Seconds spent in queue: 18
+...
+040 (6767755.2333.000) 2026-10-14 10:57:39 Finished transferring input files
+...
+021 (6767755.2333.000) 2026-10-14 10:57:45 Message from starter on slot1_25@glidein_690493_168166572@n020.cluster.com:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767755.2333.000) 2026-10-14 10:57:46 Job executing on host: <172.16.33.20:46463?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15686068%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector6#8985725&PrivNet=n020.cluster.com&addrs=172.16.33.20-46463&alias=n020.cluster.com&noUDP>
+	SlotName: slot1_25@glidein_690493_168166572@n020.cluster.com
+	CondorScratchDir = "/scratch/glide_nDquoj/execute/dir_2680726/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767755.2333.000) 2026-10-14 10:57:54 Image size of job updated: 3285428
+	223  -  MemoryUsage of job (MB)
+	227792  -  ResidentSetSize of job (KB)
+...
+040 (6767755.2333.000) 2026-10-14 10:59:17 Started transferring output files
+	Seconds spent in queue: 145
+...
+040 (6767755.2333.000) 2026-10-14 10:59:17 Finished transferring output files
+...
+005 (6767755.2333.000) 2026-10-14 10:59:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:30, Sys 0 00:00:33  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:30, Sys 0 00:00:33  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13090  -  Run Bytes Sent By Job
+	1897373077  -  Run Bytes Received By Job
+	13090  -  Total Bytes Sent By Job
+	3794746154  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.35        2         2 
+	   Disk (KB)            : 1853048     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     223         750       768 
+	   TimeExecute (s)      :      92                       
+	   TimeSlotBusy (s)     :     151                       
+...

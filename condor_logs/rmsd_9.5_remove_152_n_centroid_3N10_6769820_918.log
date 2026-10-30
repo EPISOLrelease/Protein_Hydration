@@ -1,0 +1,44 @@
+000 (6769820.918.000) 2026-10-14 13:54:38 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769820.918.000) 2026-10-14 14:00:53 Started transferring input files
+	Transferring to host: <128.105.69.217:42061?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#15731850%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9031357&PrivNet=e2600.chtc.wisc.edu&addrs=128.105.69.217-42061+[2607-f388-2200-100-eaeb-d3ff-fe40-28dc]-42061&alias=e2600.chtc.wisc.edu&noUDP>
+...
+040 (6769820.918.000) 2026-10-14 14:01:06 Finished transferring input files
+...
+021 (6769820.918.000) 2026-10-14 14:01:07 Message from starter on slot1_2@glidein_4101_116250792@e2600.chtc.wisc.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6769820.918.000) 2026-10-14 14:01:07 Job executing on host: <128.105.69.217:40925?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15713391%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector10#9001245&PrivNet=e2600.chtc.wisc.edu&addrs=128.105.69.217-40925+[2607-f388-2200-100-eaeb-d3ff-fe40-28dc]-40925&alias=e2600.chtc.wisc.edu&noUDP>
+	SlotName: slot1_2@glidein_4101_116250792@e2600.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_4099/scratch/glide_0rTlYR/execute/dir_1406875/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6769820.918.000) 2026-10-14 14:01:16 Image size of job updated: 3761832
+	202  -  MemoryUsage of job (MB)
+	206388  -  ResidentSetSize of job (KB)
+...
+040 (6769820.918.000) 2026-10-14 14:02:49 Started transferring output files
+...
+040 (6769820.918.000) 2026-10-14 14:02:49 Finished transferring output files
+...
+005 (6769820.918.000) 2026-10-14 14:02:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:31, Sys 0 00:00:42  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:31, Sys 0 00:00:42  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12721  -  Run Bytes Sent By Job
+	1897953359  -  Run Bytes Received By Job
+	12721  -  Total Bytes Sent By Job
+	1897953359  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.32        2         2 
+	   Disk (KB)            : 1853563     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     202         750       768 
+	   TimeExecute (s)      :     102                       
+	   TimeSlotBusy (s)     :     116                       
+...

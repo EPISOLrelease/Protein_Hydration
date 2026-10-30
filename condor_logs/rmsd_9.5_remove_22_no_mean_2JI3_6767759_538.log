@@ -1,0 +1,51 @@
+000 (6767759.538.000) 2026-10-14 10:44:17 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767759.538.000) 2026-10-14 11:22:07 Entered queue to transfer input files
+	Transferring to host: <128.105.69.125:9618?addrs=128.105.69.125-9618+[2607-f388-2200-100-1270-fdff-fe56-79f4]-9618&alias=e4074.chtc.wisc.edu&noUDP&sock=slot1_42_2587266_b3b3_37118>
+...
+040 (6767759.538.000) 2026-10-14 11:22:16 Started transferring input files
+	Seconds spent in queue: 9
+...
+040 (6767759.538.000) 2026-10-14 11:22:27 Finished transferring input files
+...
+001 (6767759.538.000) 2026-10-14 11:22:32 Job executing on host: <128.105.69.125:9618?addrs=128.105.69.125-9618+[2607-f388-2200-100-1270-fdff-fe56-79f4]-9618&alias=e4074.chtc.wisc.edu&noUDP&sock=startd_14971_7072>
+	SlotName: slot1_42@e4074.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1199442/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6767759.538.000) 2026-10-14 11:22:40 Image size of job updated: 161256
+	158  -  MemoryUsage of job (MB)
+	161256  -  ResidentSetSize of job (KB)
+...
+006 (6767759.538.000) 2026-10-14 11:26:33 Image size of job updated: 163080
+	158  -  MemoryUsage of job (MB)
+	161256  -  ResidentSetSize of job (KB)
+...
+040 (6767759.538.000) 2026-10-14 11:26:43 Started transferring output files
+	Seconds spent in queue: 276
+...
+040 (6767759.538.000) 2026-10-14 11:27:03 Finished transferring output files
+...
+005 (6767759.538.000) 2026-10-14 11:27:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:45, Sys 0 00:01:56  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:45, Sys 0 00:01:56  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12663  -  Run Bytes Sent By Job
+	1898692637  -  Run Bytes Received By Job
+	12663  -  Total Bytes Sent By Job
+	1898692637  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.41        2         2 
+	   Disk (KB)            : 1854181     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     158         750       768 
+	   TimeExecute (s)      :     244                       
+	   TimeSlotBusy (s)     :     304                       
+...

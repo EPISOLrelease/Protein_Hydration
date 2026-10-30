@@ -1,0 +1,24 @@
+000 (6744759.026.000) 2026-10-12 16:34:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744759.026.000) 2026-10-12 16:35:21 Started transferring input files
+	Transferring to host: <128.105.68.48:9618?addrs=128.105.68.48-9618+[2607-f388-2200-100-3680-dff-fe2e-8420]-9618&alias=e2478.chtc.wisc.edu&noUDP&sock=slot1_32_2711909_f8a0_30984>
+...
+040 (6744759.026.000) 2026-10-12 16:36:18 Finished transferring input files
+...
+004 (6744759.026.000) 2026-10-12 16:36:19 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1274928  4194304   4194304 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :               750       768 
+...
+009 (6744759.026.000) 2026-10-12 16:36:19 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

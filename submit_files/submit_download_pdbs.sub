@@ -1,0 +1,49 @@
+universe = container
+container_image = containers/container.sif
+
+initialdir=/home/pcswanson/water_proj/super_water_version_2
+
+suprw_dir=supa_cap_005
+# works 10/10/2026
+transfer_input_files = python_scripts/,super_results/$(suprw_dir)/fixed_$(pdb)/fixed_$(pdb)_centroid.pdb
+
+# ------------------------------------------------------------------------------
+rho=1.5
+name=$(suprw_dir)_$(rho)_IONS
+# ------------------------------------------------------------------------------
+log = ../condor_logs/$(name)_$(pdb)_$(Cluster)_$(Process).log
+error = ../condor_logs/$(name)_$(pdb)_$(Cluster)_$(Process).err
+output = ../condor_logs/$(name)_$(pdb)_$(Cluster)_$(Process).out
+
+executable = ../run_scripts/run_rho_cluster.sh 
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT_OR_EVICT
+
+output_directory = rism_results/$(name)/pdbs
+
+transfer_output_files = aligned_$(pdb).pdb,aligned_combined_$(pdb).pdb
+
++WantGPULab = false
+
+want_ospool = true
+want_campus_pools = true
+want_campus_pools = false
+
+environment = "CLUSTER=$(Cluster) PROCESS=$(Process) RUNNINGON=$$(Name) PDB=$(pdb) RHO=$(rho) NAME=$(name)"
+
+request_cpus = 2
+
+request_memory = ifthenelse(MemoryUsage =!= undefined,MAX({MemoryUsage * 3,4000}), 750)
+
+request_disk = 4GB
+
+max_idle = 10000
+
+# test 7 pdbs from query dataset
+# queue pdb from ../pdb_lists/10_query_pdbs.txt 
+
+#queue pdb from ../pdb_lists/fixed_gt_3.txt
+queue pdb from ../pdb_lists/10_query_pdbs.txt
+
+

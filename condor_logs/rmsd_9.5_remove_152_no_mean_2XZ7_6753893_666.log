@@ -1,0 +1,51 @@
+000 (6753893.666.000) 2026-10-13 13:45:41 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6753893.666.000) 2026-10-13 13:50:00 Entered queue to transfer input files
+	Transferring to host: <128.105.69.164:9618?addrs=128.105.69.164-9618+[2607-f388-2200-100-1270-fdff-fe56-c2ec]-9618&alias=e4097.chtc.wisc.edu&noUDP&sock=backfill1_69_3241272_17d6_35231>
+...
+040 (6753893.666.000) 2026-10-13 13:50:24 Started transferring input files
+	Seconds spent in queue: 24
+...
+040 (6753893.666.000) 2026-10-13 13:50:31 Finished transferring input files
+...
+001 (6753893.666.000) 2026-10-13 13:50:38 Job executing on host: <128.105.69.164:9618?addrs=128.105.69.164-9618+[2607-f388-2200-100-1270-fdff-fe56-c2ec]-9618&alias=e4097.chtc.wisc.edu&noUDP&sock=startd_14733_30e7>
+	SlotName: backfill1_69@e4097.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3685023/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6753893.666.000) 2026-10-13 13:50:47 Image size of job updated: 148280
+	145  -  MemoryUsage of job (MB)
+	148280  -  ResidentSetSize of job (KB)
+...
+006 (6753893.666.000) 2026-10-13 13:52:36 Image size of job updated: 148296
+	145  -  MemoryUsage of job (MB)
+	148280  -  ResidentSetSize of job (KB)
+...
+040 (6753893.666.000) 2026-10-13 13:52:38 Started transferring output files
+	Seconds spent in queue: 158
+...
+040 (6753893.666.000) 2026-10-13 13:52:46 Finished transferring output files
+...
+004 (6753893.666.000) 2026-10-13 13:52:50 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:01:45, Sys 0 00:00:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	9711  -  Run Bytes Sent By Job
+	1897759024  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.39        2         2 
+	   Disk (KB)            : 1853480     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     145         750       768 
+	   TimeExecute (s)      :     120                       
+	   TimeSlotBusy (s)     :     173                       
+...
+009 (6753893.666.000) 2026-10-13 13:52:50 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

@@ -1,0 +1,47 @@
+000 (6744930.3135.000) 2026-10-12 18:44:11 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744930.3135.000) 2026-10-12 19:00:50 Started transferring input files
+	Transferring to host: <128.105.69.131:9618?addrs=128.105.69.131-9618+[2607-f388-2200-100-1270-fdff-fe56-6724]-9618&alias=e4080.chtc.wisc.edu&noUDP&sock=slot1_27_1839172_cd9e_36973>
+...
+040 (6744930.3135.000) 2026-10-12 19:00:59 Finished transferring input files
+...
+001 (6744930.3135.000) 2026-10-12 19:01:02 Job executing on host: <128.105.69.131:9618?addrs=128.105.69.131-9618+[2607-f388-2200-100-1270-fdff-fe56-6724]-9618&alias=e4080.chtc.wisc.edu&noUDP&sock=startd_10600_4bfb>
+	SlotName: slot1_27@e4080.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2015850/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6744930.3135.000) 2026-10-12 19:01:11 Image size of job updated: 173496
+	170  -  MemoryUsage of job (MB)
+	173496  -  ResidentSetSize of job (KB)
+...
+006 (6744930.3135.000) 2026-10-12 19:03:55 Image size of job updated: 175064
+	170  -  MemoryUsage of job (MB)
+	173496  -  ResidentSetSize of job (KB)
+...
+040 (6744930.3135.000) 2026-10-12 19:03:55 Started transferring output files
+...
+040 (6744930.3135.000) 2026-10-12 19:03:55 Finished transferring output files
+...
+005 (6744930.3135.000) 2026-10-12 19:03:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:40, Sys 0 00:01:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:40, Sys 0 00:01:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12614  -  Run Bytes Sent By Job
+	1897675779  -  Run Bytes Received By Job
+	12614  -  Total Bytes Sent By Job
+	1897675779  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.34        2         2 
+	   Disk (KB)            : 1853408     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     170         750       768 
+	   TimeExecute (s)      :     174                       
+	   TimeSlotBusy (s)     :     188                       
+...

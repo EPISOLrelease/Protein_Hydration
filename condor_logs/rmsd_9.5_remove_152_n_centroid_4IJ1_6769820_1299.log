@@ -1,0 +1,48 @@
+000 (6769820.1299.000) 2026-10-14 13:54:37 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769820.1299.000) 2026-10-14 14:02:48 Started transferring input files
+	Transferring to host: <192.168.196.159:42873?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15225534%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8522233&PrivNet=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&addrs=192.168.196.159-42873+[2607-f388-2200-0-5aeb-325-adff-471f]-42873&alias=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&noUDP&sock=slot1_21_3981_b97b_10944>
+...
+040 (6769820.1299.000) 2026-10-14 14:03:01 Finished transferring input files
+...
+021 (6769820.1299.000) 2026-10-14 14:03:02 Message from starter on slot1_21@WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6769820.1299.000) 2026-10-14 14:03:02 Job executing on host: <192.168.196.159:42873?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15225534%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8522233&PrivNet=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&addrs=192.168.196.159-42873+[2607-f388-2200-0-5aeb-325-adff-471f]-42873&alias=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&noUDP&sock=startd_3975_190c>
+	SlotName: slot1_21@WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr
+	CondorScratchDir = "/pilot/osgvo-pilot-SqeWI2/execute/dir_1239724/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6769820.1299.000) 2026-10-14 14:03:10 Image size of job updated: 4350468
+	153  -  MemoryUsage of job (MB)
+	156344  -  ResidentSetSize of job (KB)
+...
+006 (6769820.1299.000) 2026-10-14 14:08:10 Image size of job updated: 4583076
+	255  -  MemoryUsage of job (MB)
+	260392  -  ResidentSetSize of job (KB)
+...
+040 (6769820.1299.000) 2026-10-14 14:09:24 Started transferring output files
+...
+040 (6769820.1299.000) 2026-10-14 14:09:24 Finished transferring output files
+...
+005 (6769820.1299.000) 2026-10-14 14:09:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:09, Sys 0 00:02:24  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:09, Sys 0 00:02:24  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12777  -  Run Bytes Sent By Job
+	1899094256  -  Run Bytes Received By Job
+	12777  -  Total Bytes Sent By Job
+	1899094256  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.34        2         2 
+	   Disk (KB)            : 1854650     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     255         750       768 
+	   TimeExecute (s)      :     381                       
+	   TimeSlotBusy (s)     :     400                       
+...

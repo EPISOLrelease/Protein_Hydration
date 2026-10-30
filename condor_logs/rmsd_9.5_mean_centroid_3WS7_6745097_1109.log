@@ -1,0 +1,80 @@
+000 (6745097.1109.000) 2026-10-12 22:08:19 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6745097.1109.000) 2026-10-12 22:22:00 Started transferring input files
+	Transferring to host: <141.142.150.76:5681?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#15609906%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8904491&PrivNet=rails06&addrs=141.142.150.76-5681&alias=rails06&noUDP>
+...
+040 (6745097.1109.000) 2026-10-12 22:22:13 Finished transferring input files
+...
+021 (6745097.1109.000) 2026-10-12 22:22:14 Message from starter on slot1_15@glidein_1077089_354216294@rails06:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6745097.1109.000) 2026-10-12 22:22:14 Job executing on host: <141.142.150.76:22215?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15602388%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector2#8894339&PrivNet=rails06&addrs=141.142.150.76-22215&alias=rails06&noUDP>
+	SlotName: slot1_15@glidein_1077089_354216294@rails06
+	AvailableGPUs = {  }
+	CondorScratchDir = "/projects/bcxl/svcosguser/glide_Hq3cLg/execute/dir_1244365/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6745097.1109.000) 2026-10-12 22:22:24 Image size of job updated: 4652648
+	237  -  MemoryUsage of job (MB)
+	242280  -  ResidentSetSize of job (KB)
+...
+006 (6745097.1109.000) 2026-10-12 22:24:07 Image size of job updated: 4652648
+	237  -  MemoryUsage of job (MB)
+	242396  -  ResidentSetSize of job (KB)
+...
+004 (6745097.1109.000) 2026-10-12 22:24:11 Job was evicted. Code 1013 Subcode 0
+	(0) CPU times
+		Usr 0 00:01:46, Sys 0 00:00:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1897577968  -  Run Bytes Received By Job
+	Reason: Startd was shutdown
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.37        2         2 
+	   Disk (KB)            : 1853230     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     237         750       768 
+	   TimeExecute (s)      :     113                       
+	   TimeSlotBusy (s)     :     130                       
+...
+040 (6745097.1109.000) 2026-10-12 22:24:16 Started transferring input files
+	Transferring to host: <172.20.32.74:39005?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15607617%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#8896993&PrivNet=execute-146.mortimer.hpc.uwm.edu&addrs=172.20.32.74-39005&alias=execute-146.mortimer.hpc.uwm.edu&noUDP>
+...
+040 (6745097.1109.000) 2026-10-12 22:24:35 Finished transferring input files
+...
+021 (6745097.1109.000) 2026-10-12 22:24:36 Message from starter on slot1_2@glidein_2715770_526706736@execute-146.mortimer.hpc.uwm.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6745097.1109.000) 2026-10-12 22:24:36 Job executing on host: <172.20.32.74:33677?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15580636%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector3#8872553&PrivNet=execute-146.mortimer.hpc.uwm.edu&addrs=172.20.32.74-33677&alias=execute-146.mortimer.hpc.uwm.edu&noUDP>
+	SlotName: slot1_2@glidein_2715770_526706736@execute-146.mortimer.hpc.uwm.edu
+	CondorScratchDir = "/tmp/glide_JrryoY/execute/dir_583975/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 4096
+...
+040 (6745097.1109.000) 2026-10-12 22:31:47 Started transferring output files
+...
+040 (6745097.1109.000) 2026-10-12 22:31:47 Finished transferring output files
+...
+005 (6745097.1109.000) 2026-10-12 22:31:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:52, Sys 0 00:04:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:07:38, Sys 0 00:05:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12187  -  Run Bytes Sent By Job
+	1897577968  -  Run Bytes Received By Job
+	12187  -  Total Bytes Sent By Job
+	3795155936  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.41        2         2 
+	   Disk (KB)            : 1853893     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     245        4000      4096 
+	   TimeExecute (s)      :     431                       
+	   TimeSlotBusy (s)     :     452                       
+...

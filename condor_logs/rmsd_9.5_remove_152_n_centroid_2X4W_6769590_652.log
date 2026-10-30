@@ -1,0 +1,44 @@
+000 (6769590.652.000) 2026-10-14 13:33:03 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769590.652.000) 2026-10-14 13:39:27 Started transferring input files
+	Transferring to host: <172.16.61.69:38371?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15737826%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9033463&PrivNet=IU-Jetstream2-Backfill.green-7b499568d4-25m4q&addrs=172.16.61.69-38371&alias=IU-Jetstream2-Backfill.green-7b499568d4-25m4q&noUDP&sock=slot1_3_3588_d20b_56>
+...
+040 (6769590.652.000) 2026-10-14 13:39:38 Finished transferring input files
+...
+021 (6769590.652.000) 2026-10-14 13:39:38 Message from starter on slot1_3@IU-Jetstream2-Backfill.green-7b499568d4-25m4q:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6769590.652.000) 2026-10-14 13:39:39 Job executing on host: <172.16.61.69:38371?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15737826%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9033463&PrivNet=IU-Jetstream2-Backfill.green-7b499568d4-25m4q&addrs=172.16.61.69-38371&alias=IU-Jetstream2-Backfill.green-7b499568d4-25m4q&noUDP&sock=startd_3581_d8bc>
+	SlotName: slot1_3@IU-Jetstream2-Backfill.green-7b499568d4-25m4q
+	CondorScratchDir = "/pilot/osgvo-pilot-7ELtof/execute/dir_53419"
+	Cpus = 2
+	Disk = 4195328
+	GPUs = 0
+	Memory = 768
+...
+006 (6769590.652.000) 2026-10-14 13:39:41 Image size of job updated: 1
+	6  -  MemoryUsage of job (MB)
+	5992  -  ResidentSetSize of job (KB)
+...
+040 (6769590.652.000) 2026-10-14 13:39:41 Started transferring output files
+...
+040 (6769590.652.000) 2026-10-14 13:39:43 Finished transferring output files
+...
+004 (6769590.652.000) 2026-10-14 13:39:43 Job was evicted. Code 1023 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	446  -  Run Bytes Sent By Job
+	1896966307  -  Run Bytes Received By Job
+	Reason: via condor_rm (by user pcswanson)
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  1852609  4194304   4195328 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        6      750       768 
+	   TimeExecute (s)      :        3                    
+	   TimeSlotBusy (s)     :       20                    
+...
+009 (6769590.652.000) 2026-10-14 13:39:43 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

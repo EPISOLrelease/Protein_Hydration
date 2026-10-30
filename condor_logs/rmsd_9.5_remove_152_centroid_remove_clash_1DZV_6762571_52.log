@@ -1,0 +1,73 @@
+000 (6762571.052.000) 2026-10-13 19:28:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6762571.052.000) 2026-10-13 19:30:29 Started transferring input files
+	Transferring to host: <10.242.15.230:37455?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector4#15692223%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#8991802&PrivNet=notch230.ipoib.int.chpc.utah.edu&addrs=10.242.15.230-37455&alias=notch230.ipoib.int.chpc.utah.edu&noUDP>
+...
+040 (6762571.052.000) 2026-10-13 19:46:40 Finished transferring input files
+...
+022 (6762571.052.000) 2026-10-13 19:46:41 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_11@glidein_1012512_837778171@notch230.ipoib.int.chpc.utah.edu <10.242.15.230:33773?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#15692188%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector4#8989035&PrivNet=notch230.ipoib.int.chpc.utah.edu&addrs=10.242.15.230-33773&alias=notch230.ipoib.int.chpc.utah.edu&noUDP>
+...
+024 (6762571.052.000) 2026-10-13 20:26:40 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_11@glidein_1012512_837778171@notch230.ipoib.int.chpc.utah.edu, rescheduling job
+...
+004 (6762571.052.000) 2026-10-13 20:26:51 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1061927  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6762571.052.000) 2026-10-13 20:26:55 Started transferring input files
+	Transferring to host: <128.105.69.1:9618?addrs=128.105.69.1-9618+[2607-f388-2200-100-ba3f-d2ff-fedf-f710]-9618&alias=lindley2001.chtc.wisc.edu&noUDP&sock=backfill1_118_1000425_aa43_43548>
+...
+040 (6762571.052.000) 2026-10-13 20:27:06 Finished transferring input files
+...
+001 (6762571.052.000) 2026-10-13 20:27:06 Job executing on host: <128.105.69.1:9618?addrs=128.105.69.1-9618+[2607-f388-2200-100-ba3f-d2ff-fedf-f710]-9618&alias=lindley2001.chtc.wisc.edu&noUDP&sock=startd_15040_c47b>
+	SlotName: backfill1_118@lindley2001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1830276/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6762571.052.000) 2026-10-13 20:27:15 Image size of job updated: 141820
+	139  -  MemoryUsage of job (MB)
+	141820  -  ResidentSetSize of job (KB)
+...
+006 (6762571.052.000) 2026-10-13 20:28:01 Image size of job updated: 141828
+	139  -  MemoryUsage of job (MB)
+	141820  -  ResidentSetSize of job (KB)
+...
+040 (6762571.052.000) 2026-10-13 20:28:01 Started transferring output files
+...
+040 (6762571.052.000) 2026-10-13 20:28:01 Finished transferring output files
+...
+005 (6762571.052.000) 2026-10-13 20:28:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:50, Sys 0 00:00:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:50, Sys 0 00:00:25  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13067  -  Run Bytes Sent By Job
+	1897186476  -  Run Bytes Received By Job
+	13067  -  Total Bytes Sent By Job
+	1897186476  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.38        2         2 
+	   Disk (KB)            : 1852757     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     139         750       768 
+	   TimeExecute (s)      :      55                       
+	   TimeSlotBusy (s)     :      66                       
+...

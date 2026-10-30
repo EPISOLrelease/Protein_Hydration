@@ -1,0 +1,83 @@
+000 (6744930.725.000) 2026-10-12 18:44:11 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744930.725.000) 2026-10-12 18:48:37 Started transferring input files
+	Transferring to host: <10.226.104.115:42481?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15588725%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8893754&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-42481&alias=epyc015.rci.montana.edu&noUDP>
+...
+040 (6744930.725.000) 2026-10-12 18:50:16 Finished transferring input files
+...
+040 (6744930.725.000) 2026-10-12 18:50:25 Started transferring input files
+	Transferring to host: <10.226.104.115:42481?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15588725%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8893754&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-42481&alias=epyc015.rci.montana.edu&noUDP>
+...
+040 (6744930.725.000) 2026-10-12 18:54:54 Finished transferring input files
+...
+040 (6744930.725.000) 2026-10-12 18:54:56 Started transferring input files
+	Transferring to host: <10.226.104.115:42481?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15588725%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8893754&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-42481&alias=epyc015.rci.montana.edu&noUDP>
+...
+040 (6744930.725.000) 2026-10-12 19:02:57 Finished transferring input files
+...
+022 (6744930.725.000) 2026-10-12 19:05:37 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_3@glidein_4142122_1018498772@epyc015.rci.montana.edu <10.226.104.115:42427?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15589479%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#8878962&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-42427&alias=epyc015.rci.montana.edu&noUDP>
+...
+024 (6744930.725.000) 2026-10-12 19:05:38 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_3@glidein_4142122_1018498772@epyc015.rci.montana.edu, rescheduling job
+...
+004 (6744930.725.000) 2026-10-12 19:05:39 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2000000  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+040 (6744930.725.000) 2026-10-12 19:05:40 Started transferring input files
+	Transferring to host: <128.105.69.145:9618?addrs=128.105.69.145-9618+[2607-f388-2200-100-1270-fdff-fe56-636c]-9618&alias=e4022.chtc.wisc.edu&noUDP&sock=slot1_94_2357023_ae01_28097>
+...
+040 (6744930.725.000) 2026-10-12 19:05:57 Finished transferring input files
+...
+001 (6744930.725.000) 2026-10-12 19:05:57 Job executing on host: <128.105.69.145:9618?addrs=128.105.69.145-9618+[2607-f388-2200-100-1270-fdff-fe56-636c]-9618&alias=e4022.chtc.wisc.edu&noUDP&sock=startd_14782_cd0b>
+	SlotName: slot1_94@e4022.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_487144/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6744930.725.000) 2026-10-12 19:06:06 Image size of job updated: 158048
+	155  -  MemoryUsage of job (MB)
+	158048  -  ResidentSetSize of job (KB)
+...
+006 (6744930.725.000) 2026-10-12 19:11:07 Image size of job updated: 159648
+	155  -  MemoryUsage of job (MB)
+	158048  -  ResidentSetSize of job (KB)
+...
+040 (6744930.725.000) 2026-10-12 19:12:30 Started transferring output files
+...
+040 (6744930.725.000) 2026-10-12 19:12:30 Finished transferring output files
+...
+005 (6744930.725.000) 2026-10-12 19:12:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:07, Sys 0 00:02:34  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:07, Sys 0 00:02:34  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12613  -  Run Bytes Sent By Job
+	1898268493  -  Run Bytes Received By Job
+	12613  -  Total Bytes Sent By Job
+	1898268493  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.33        2         2 
+	   Disk (KB)            : 1853996     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     155         750       768 
+	   TimeExecute (s)      :     393                       
+	   TimeSlotBusy (s)     :     411                       
+...

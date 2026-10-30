@@ -1,0 +1,48 @@
+000 (6769590.390.000) 2026-10-14 13:33:03 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6769590.390.000) 2026-10-14 13:37:52 Entered queue to transfer input files
+	Transferring to host: <192.168.196.159:42873?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15225534%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8522233&PrivNet=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&addrs=192.168.196.159-42873+[2607-f388-2200-0-5aeb-325-adff-471f]-42873&alias=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&noUDP&sock=slot1_4_3981_b97b_10903>
+...
+040 (6769590.390.000) 2026-10-14 13:37:54 Started transferring input files
+	Seconds spent in queue: 2
+...
+040 (6769590.390.000) 2026-10-14 13:38:05 Finished transferring input files
+...
+021 (6769590.390.000) 2026-10-14 13:38:06 Message from starter on slot1_4@WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6769590.390.000) 2026-10-14 13:38:06 Job executing on host: <192.168.196.159:42873?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector8#15225534%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector8#8522233&PrivNet=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&addrs=192.168.196.159-42873+[2607-f388-2200-0-5aeb-325-adff-471f]-42873&alias=WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr&noUDP&sock=startd_3975_190c>
+	SlotName: slot1_4@WISC-PATH-EP.osgvo-docker-pilot-ospool-665dff69c8-kcztr
+	CondorScratchDir = "/pilot/osgvo-pilot-SqeWI2/execute/dir_1177418/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6769590.390.000) 2026-10-14 13:38:10 Image size of job updated: 1
+	5  -  MemoryUsage of job (MB)
+	4152  -  ResidentSetSize of job (KB)
+...
+040 (6769590.390.000) 2026-10-14 13:38:10 Started transferring output files
+	Seconds spent in queue: 18
+...
+040 (6769590.390.000) 2026-10-14 13:38:10 Finished transferring output files
+...
+005 (6769590.390.000) 2026-10-14 13:38:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1585  -  Run Bytes Sent By Job
+	1897826060  -  Run Bytes Received By Job
+	1585  -  Total Bytes Sent By Job
+	1897826060  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :  1853697  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        5      750       768 
+	   TimeExecute (s)      :        4                    
+	   TimeSlotBusy (s)     :       23                    
+...

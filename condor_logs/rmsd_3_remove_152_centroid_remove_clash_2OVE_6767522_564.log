@@ -1,0 +1,78 @@
+000 (6767522.564.000) 2026-10-14 10:16:26 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767522.564.000) 2026-10-14 10:19:11 Started transferring input files
+	Transferring to host: <10.88.37.203:33125?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15727289%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector7#9023087&PrivNet=discovery-g3.cluster.local&addrs=10.88.37.203-33125&alias=discovery-g3.cluster.local&noUDP>
+...
+040 (6767522.564.000) 2026-10-14 10:19:41 Finished transferring input files
+...
+021 (6767522.564.000) 2026-10-14 10:19:46 Message from starter on slot1_1@glidein_1333032_758724688@discovery-g3.cluster.local:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6767522.564.000) 2026-10-14 10:19:48 Job executing on host: <10.88.37.203:38311?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#15723283%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector9#9028845&PrivNet=discovery-g3.cluster.local&addrs=10.88.37.203-38311&alias=discovery-g3.cluster.local&noUDP>
+	SlotName: slot1_1@glidein_1333032_758724688@discovery-g3.cluster.local
+	CondorScratchDir = "/fs1/osg/osg01/glide_4f4VsV/execute/dir_1369415/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6767522.564.000) 2026-10-14 10:19:57 Image size of job updated: 4597948
+	237  -  MemoryUsage of job (MB)
+	241792  -  ResidentSetSize of job (KB)
+...
+006 (6767522.564.000) 2026-10-14 10:22:59 Image size of job updated: 4597948
+	237  -  MemoryUsage of job (MB)
+	241884  -  ResidentSetSize of job (KB)
+...
+004 (6767522.564.000) 2026-10-14 10:23:00 Job was evicted. Code 1013 Subcode 0
+	(0) CPU times
+		Usr 0 00:03:21, Sys 0 00:00:59  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1897004366  -  Run Bytes Received By Job
+	Reason: Startd was shutdown
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.36        2         2 
+	   Disk (KB)            : 1852654     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     237         750       768 
+	   TimeExecute (s)      :     193                       
+	   TimeSlotBusy (s)     :     229                       
+...
+040 (6767522.564.000) 2026-10-14 10:23:12 Started transferring input files
+	Transferring to host: <128.105.69.222:9618?addrs=128.105.69.222-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-1d3c]-9618&alias=e2605.chtc.wisc.edu&noUDP&sock=slot1_132_3748911_b119_44859>
+...
+040 (6767522.564.000) 2026-10-14 10:23:27 Finished transferring input files
+...
+001 (6767522.564.000) 2026-10-14 10:23:29 Job executing on host: <128.105.69.222:9618?addrs=128.105.69.222-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-1d3c]-9618&alias=e2605.chtc.wisc.edu&noUDP&sock=startd_14900_bd38>
+	SlotName: slot1_132@e2605.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_181509/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6767522.564.000) 2026-10-14 10:24:14 Started transferring output files
+...
+040 (6767522.564.000) 2026-10-14 10:24:30 Finished transferring output files
+...
+005 (6767522.564.000) 2026-10-14 10:24:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:39, Sys 0 00:00:21  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:00, Sys 0 00:01:20  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13785  -  Run Bytes Sent By Job
+	1897004366  -  Run Bytes Received By Job
+	13785  -  Total Bytes Sent By Job
+	3794008732  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.37        2         2 
+	   Disk (KB)            : 1852566     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     245        4000      4096 
+	   TimeExecute (s)      :      45                       
+	   TimeSlotBusy (s)     :      71                       
+...

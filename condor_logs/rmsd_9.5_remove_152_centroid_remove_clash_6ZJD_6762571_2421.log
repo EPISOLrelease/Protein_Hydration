@@ -1,0 +1,76 @@
+000 (6762571.2421.000) 2026-10-13 19:28:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6762571.2421.000) 2026-10-13 20:07:50 Entered queue to transfer input files
+	Transferring to host: <10.226.104.115:40607?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#15697645%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#8993962&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-40607&alias=epyc015.rci.montana.edu&noUDP>
+...
+040 (6762571.2421.000) 2026-10-13 20:08:17 Started transferring input files
+	Seconds spent in queue: 27
+...
+022 (6762571.2421.000) 2026-10-13 20:15:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_2@glidein_2872210_263892972@epyc015.rci.montana.edu <10.226.104.115:41051?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector1#15697368%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#8991773&PrivNet=epyc015.rci.montana.edu&addrs=10.226.104.115-41051&alias=epyc015.rci.montana.edu&noUDP>
+...
+024 (6762571.2421.000) 2026-10-13 20:15:16 Job reconnection failed
+    Job not found at execution machine
+    Can not reconnect to slot1_2@glidein_2872210_263892972@epyc015.rci.montana.edu, rescheduling job
+...
+004 (6762571.2421.000) 2026-10-13 20:15:17 Job was evicted. Code 1008 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Job not found at execution machine
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  2000000  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750      4096 
+...
+040 (6762571.2421.000) 2026-10-13 20:15:22 Started transferring input files
+	Seconds spent in queue: 452
+...
+040 (6762571.2421.000) 2026-10-13 20:15:31 Finished transferring input files
+...
+021 (6762571.2421.000) 2026-10-13 20:15:31 Message from starter on slot1_72@glidein_265716_257724624@a196.anvil.rcac.purdue.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image container.sif
+...
+001 (6762571.2421.000) 2026-10-13 20:15:31 Job executing on host: <172.18.88.206:43323?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector3#15681045%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector1#8986494&PrivNet=a196.anvil.rcac.purdue.edu&addrs=172.18.88.206-43323&alias=a196.anvil.rcac.purdue.edu&noUDP>
+	SlotName: slot1_72@glidein_265716_257724624@a196.anvil.rcac.purdue.edu
+	CondorScratchDir = "/tmp/glide_Rxyhcr/execute/dir_1811565/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	Memory = 768
+...
+006 (6762571.2421.000) 2026-10-13 20:15:40 Image size of job updated: 1
+	6  -  MemoryUsage of job (MB)
+	5372  -  ResidentSetSize of job (KB)
+...
+006 (6762571.2421.000) 2026-10-13 20:17:39 Image size of job updated: 6684156
+	236  -  MemoryUsage of job (MB)
+	241660  -  ResidentSetSize of job (KB)
+...
+040 (6762571.2421.000) 2026-10-13 20:17:39 Started transferring output files
+	Seconds spent in queue: 589
+...
+040 (6762571.2421.000) 2026-10-13 20:17:39 Finished transferring output files
+...
+005 (6762571.2421.000) 2026-10-13 20:17:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:55, Sys 0 00:01:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:55, Sys 0 00:01:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12814  -  Run Bytes Sent By Job
+	1897363828  -  Run Bytes Received By Job
+	12814  -  Total Bytes Sent By Job
+	1897363828  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.41        2         2 
+	   Disk (KB)            : 1853015     4194304   4194304 
+	   GPUs                 :                             0 
+	   Memory (MB)          :     236         750       768 
+	   TimeExecute (s)      :     128                       
+	   TimeSlotBusy (s)     :     141                       
+...

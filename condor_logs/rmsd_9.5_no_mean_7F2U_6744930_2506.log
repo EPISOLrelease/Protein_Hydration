@@ -1,0 +1,115 @@
+000 (6744930.2506.000) 2026-10-12 18:44:11 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744930.2506.000) 2026-10-12 18:57:30 Started transferring input files
+	Transferring to host: <128.105.68.148:9618?addrs=128.105.68.148-9618+[2607-f388-2200-100-e63d-1aff-fea0-e2fc]-9618&alias=dmorgan2001.chtc.wisc.edu&noUDP&sock=backfill1_1_1589383_db11_21465>
+...
+040 (6744930.2506.000) 2026-10-12 18:57:39 Finished transferring input files
+...
+001 (6744930.2506.000) 2026-10-12 18:57:41 Job executing on host: <128.105.68.148:9618?addrs=128.105.68.148-9618+[2607-f388-2200-100-e63d-1aff-fea0-e2fc]-9618&alias=dmorgan2001.chtc.wisc.edu&noUDP&sock=startd_10871_2e25>
+	SlotName: backfill1_1@dmorgan2001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_367492/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (6744930.2506.000) 2026-10-12 18:57:50 Image size of job updated: 159952
+	157  -  MemoryUsage of job (MB)
+	159952  -  ResidentSetSize of job (KB)
+...
+006 (6744930.2506.000) 2026-10-12 18:58:32 Image size of job updated: 159964
+	157  -  MemoryUsage of job (MB)
+	159952  -  ResidentSetSize of job (KB)
+...
+040 (6744930.2506.000) 2026-10-12 18:58:33 Started transferring output files
+...
+040 (6744930.2506.000) 2026-10-12 18:58:35 Finished transferring output files
+...
+004 (6744930.2506.000) 2026-10-12 18:58:36 Job was evicted. Code 1011 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:52, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	1509  -  Run Bytes Sent By Job
+	1899284877  -  Run Bytes Received By Job
+	Reason: PREEMPT expression evaluated to True
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.20        2         2 
+	   Disk (KB)            : 1854809     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     157         750      4096 
+	   TimeExecute (s)      :      52                       
+	   TimeSlotBusy (s)     :      64                       
+...
+040 (6744930.2506.000) 2026-10-12 18:59:09 Started transferring input files
+	Transferring to host: <128.105.68.148:9618?addrs=128.105.68.148-9618+[2607-f388-2200-100-e63d-1aff-fea0-e2fc]-9618&alias=dmorgan2001.chtc.wisc.edu&noUDP&sock=backfill1_1_1589383_db11_21475>
+...
+040 (6744930.2506.000) 2026-10-12 18:59:21 Finished transferring input files
+...
+001 (6744930.2506.000) 2026-10-12 18:59:29 Job executing on host: <128.105.68.148:9618?addrs=128.105.68.148-9618+[2607-f388-2200-100-e63d-1aff-fea0-e2fc]-9618&alias=dmorgan2001.chtc.wisc.edu&noUDP&sock=startd_10871_2e25>
+	SlotName: backfill1_1@dmorgan2001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_371701/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6744930.2506.000) 2026-10-12 19:00:56 Started transferring output files
+...
+040 (6744930.2506.000) 2026-10-12 19:01:04 Finished transferring output files
+...
+004 (6744930.2506.000) 2026-10-12 19:01:07 Job was evicted. Code 1011 Subcode 0
+	(0) CPU times
+		Usr 0 00:01:29, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	1509  -  Run Bytes Sent By Job
+	1899286386  -  Run Bytes Received By Job
+	Reason: PREEMPT expression evaluated to True
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.24        2         2 
+	   Disk (KB)            : 1854811     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     171        4000      4096 
+	   TimeExecute (s)      :      86                       
+	   TimeSlotBusy (s)     :     112                       
+...
+040 (6744930.2506.000) 2026-10-12 19:02:38 Started transferring input files
+	Transferring to host: <128.105.69.196:9618?addrs=128.105.69.196-9618+[2607-f388-2200-100-1270-fdff-fe56-bf74]-9618&alias=e4049.chtc.wisc.edu&noUDP&sock=slot1_40_1165334_f955_32723>
+...
+040 (6744930.2506.000) 2026-10-12 19:02:49 Finished transferring input files
+...
+001 (6744930.2506.000) 2026-10-12 19:02:49 Job executing on host: <128.105.69.196:9618?addrs=128.105.69.196-9618+[2607-f388-2200-100-1270-fdff-fe56-bf74]-9618&alias=e4049.chtc.wisc.edu&noUDP&sock=startd_12047_d185>
+	SlotName: slot1_40@e4049.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_882812/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+040 (6744930.2506.000) 2026-10-12 19:11:15 Started transferring output files
+...
+040 (6744930.2506.000) 2026-10-12 19:11:15 Finished transferring output files
+...
+005 (6744930.2506.000) 2026-10-12 19:11:16 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:07:36, Sys 0 00:00:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:57, Sys 0 00:01:12  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12214  -  Run Bytes Sent By Job
+	1899286386  -  Run Bytes Received By Job
+	15232  -  Total Bytes Sent By Job
+	5697857649  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.00        2         2 
+	   Disk (KB)            : 1854952     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     171        4000      4096 
+	   TimeExecute (s)      :     506                       
+	   TimeSlotBusy (s)     :     518                       
+...

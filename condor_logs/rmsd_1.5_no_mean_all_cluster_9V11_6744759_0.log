@@ -1,0 +1,48 @@
+035 (6744759.-01.000) 2026-10-12 16:34:50 Cluster submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+000 (6744759.000.000) 2026-10-12 16:34:50 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6744759.000.000) 2026-10-12 16:35:17 Started transferring input files
+	Transferring to host: <128.105.68.162:9618?addrs=128.105.68.162-9618+[2607-f388-2200-100-be97-e1ff-fe5c-ce74]-9618&alias=parabyte2000.chtc.wisc.edu&noUDP&sock=backfill1_31_2528659_c4c4_23163>
+...
+040 (6744759.000.000) 2026-10-12 16:35:37 Finished transferring input files
+...
+001 (6744759.000.000) 2026-10-12 16:35:43 Job executing on host: <128.105.68.162:9618?addrs=128.105.68.162-9618+[2607-f388-2200-100-be97-e1ff-fe5c-ce74]-9618&alias=parabyte2000.chtc.wisc.edu&noUDP&sock=startd_11779_fe24>
+	SlotName: backfill1_31@parabyte2000.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_921124/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6744759.000.000) 2026-10-12 16:35:51 Image size of job updated: 115936
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (6744759.000.000) 2026-10-12 16:35:51 Started transferring output files
+...
+040 (6744759.000.000) 2026-10-12 16:35:51 Finished transferring output files
+...
+005 (6744759.000.000) 2026-10-12 16:35:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:07, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:07, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1513  -  Run Bytes Sent By Job
+	1898198497  -  Run Bytes Received By Job
+	1513  -  Total Bytes Sent By Job
+	1898198497  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.88        2         2 
+	   Disk (KB)            : 1854953     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :       0         750       768 
+	   TimeExecute (s)      :       9                       
+	   TimeSlotBusy (s)     :      35                       
+...
+036 (6744759.-01.000) 2026-10-12 16:36:19 Cluster removed
+	Materialized 100 jobs from -1 items.	Incomplete
+...

@@ -1,0 +1,33 @@
+000 (6767505.1149.000) 2026-10-14 09:53:28 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6767505.1149.000) 2026-10-14 10:05:08 Started transferring input files
+	Transferring to host: <172.17.0.2:40893?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-93-2f59-6ff4-f755-7c3b]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#15715888%2067.58.49.91:9618%3faddrs%3d67.58.49.91-9618+[fdf0-17b3-c3ec-1f79-10-0-1-f913]-9618%26alias%3dccb-2.ospool.osg-htc.org%26noUDP%26sock%3dcollector5#9011487&PrivNet=UWL-Test-EP.e5f857d3ec71&addrs=172.17.0.2-40893&alias=UWL-Test-EP.e5f857d3ec71&noUDP&sock=slot1_7_3960_ed9a_344>
+...
+040 (6767505.1149.000) 2026-10-14 10:05:28 Finished transferring input files
+...
+040 (6767505.1149.000) 2026-10-14 10:05:33 Started transferring output files
+...
+021 (6767505.1149.000) 2026-10-14 10:05:44 Error from starter on slot1_7@UWL-Test-EP.e5f857d3ec71:
+	Failed to transfer files: SHADOW at 128.105.68.113 failed to send file(s) to <138.49.30.28:34595>: |Error: 1 total failures: first failure: reading from file /home/pcswanson/water_proj/super_water_version_2/python_scripts/.run_rmsd_rho_centroid.py.swp: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.105.68.113:9618>
+	Code 13 Subcode 2
+...
+004 (6767505.1149.000) 2026-10-14 10:05:45 Job was evicted. Code 13 Subcode 2
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Reason: Transfer input files failure at access point ap2002 while sending files to execution point slot1_7@UWL-Test-EP.e5f857d3ec71. Details: 1 total failures: first failure: reading from file /home/pcswanson/water_proj/super_water_version_2/python_scripts/.run_rmsd_rho_centroid.py.swp: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 2         2 
+	   Disk (KB)            :  1852608  4194304   4194304 
+	   GPUs                 :                           0 
+	   Memory (MB)          :               750       768 
+...
+012 (6767505.1149.000) 2026-10-14 10:05:45 Job was held.
+	Transfer input files failure at access point ap2002 while sending files to execution point slot1_7@UWL-Test-EP.e5f857d3ec71. Details: 1 total failures: first failure: reading from file /home/pcswanson/water_proj/super_water_version_2/python_scripts/.run_rmsd_rho_centroid.py.swp: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+009 (6767505.1149.000) 2026-10-14 10:20:08 Job was aborted.
+	via condor_rm (by user pcswanson)
+...

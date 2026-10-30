@@ -1,0 +1,55 @@
+035 (6762527.-01.000) 2026-10-13 19:01:36 Cluster submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+000 (6762527.000.000) 2026-10-13 19:01:36 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_7808_378f>
+...
+040 (6762527.000.000) 2026-10-13 19:02:17 Started transferring input files
+	Transferring to host: <128.105.68.162:9618?addrs=128.105.68.162-9618+[2607-f388-2200-100-be97-e1ff-fe5c-ce74]-9618&alias=parabyte2000.chtc.wisc.edu&noUDP&sock=backfill1_69_2528659_c4c4_26619>
+...
+040 (6762527.000.000) 2026-10-13 19:02:28 Finished transferring input files
+...
+001 (6762527.000.000) 2026-10-13 19:02:28 Job executing on host: <128.105.68.162:9618?addrs=128.105.68.162-9618+[2607-f388-2200-100-be97-e1ff-fe5c-ce74]-9618&alias=parabyte2000.chtc.wisc.edu&noUDP&sock=startd_11779_fe24>
+	SlotName: backfill1_69@parabyte2000.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3438031/scratch"
+	Cpus = 2
+	Disk = 4194304
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 768
+...
+006 (6762527.000.000) 2026-10-13 19:02:37 Image size of job updated: 143808
+	141  -  MemoryUsage of job (MB)
+	143808  -  ResidentSetSize of job (KB)
+...
+006 (6762527.000.000) 2026-10-13 19:07:38 Image size of job updated: 143900
+	141  -  MemoryUsage of job (MB)
+	143808  -  ResidentSetSize of job (KB)
+...
+040 (6762527.000.000) 2026-10-13 19:09:29 Started transferring output files
+...
+040 (6762527.000.000) 2026-10-13 19:09:29 Finished transferring output files
+...
+005 (6762527.000.000) 2026-10-13 19:09:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:56, Sys 0 00:02:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:56, Sys 0 00:02:14  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13306  -  Run Bytes Sent By Job
+	1898230395  -  Run Bytes Received By Job
+	13306  -  Total Bytes Sent By Job
+	1898230395  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.31        2         2 
+	   Disk (KB)            : 1853793     4194304   4194304 
+	   GPUs                 :                             0 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :     141         750       768 
+	   TimeExecute (s)      :     421                       
+	   TimeSlotBusy (s)     :     433                       
+...
+038 (6762527.-01.000) 2026-10-13 19:28:17 Job Materialization Resumed
+	via condor_release (by user pcswanson)
+...
+036 (6762527.-01.000) 2026-10-13 19:38:04 Cluster removed
+	Materialized 100 jobs from -1 items.	Incomplete
+...
