@@ -9,7 +9,6 @@ layout
 * python\_scripts: code that was used to run 3drism and compare results
 * run\_scripts: bash files for execution on HTCondor
 * super\_configs: .yaml files for running superwater
-* run\_files: bash scripts used to run jobs on HTCondor
 * submit\_files: .sub files for HTCondor
 
 Dependencies
